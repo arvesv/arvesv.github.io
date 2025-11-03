@@ -1,0 +1,49 @@
+baseURL: https://arvesv.com/
+languageCode: en-us
+title: Arve's Playground
+theme: PaperMod
+enableGitInfo: true
+
+copyright: "© 2025 Arve Svendsen. All rights reserved."
+
+params:
+  author: Arve Svendsen
+  description: "Software developer sharing insights on technology, automation, and system architecture"
+  keywords: ["software development", "DevOps", "automation", "technology"]
+  
+  # PaperMod specific
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  
+  # Social links
+  social:
+    - name: GitHub
+      url: https://github.com/arvesv
+    - name: X
+      url: https://x.com/arvesv
+    - name: LinkedIn
+      url: https://linkedin.com/in/arvesv
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about
+      weight: 30
+
+markup:
+  highlight:
+    style: github
+    lineNos: true
+    codeFences: true

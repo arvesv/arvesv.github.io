@@ -53,7 +53,7 @@ Custom instructions can help, but at the moment I let the agent do work in a sep
 Agents are impressive at bootstrapping new apps and prototypes. They excel at throwaway or single-use projects: one-off data extraction scripts, quick prototypes.
 
 - Will this make development faster: **Yes** (for greenfield/disposable projects only)  
-- Does this make the code better: **Probably not**, but code quality is not often secondary for throwaway work. The important stuff is does it work.
+- Does this make the code better: **Probably not**, but code quality is often secondary for throwaway work. The important stuff is does it work.
 - Do I learn more: **Maybe**
 
 ### My current take on AI

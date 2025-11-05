@@ -8,11 +8,19 @@ copyright: "© 2025 Arve Svendsen. All rights reserved."
 
 params:
   author: Arve Svendsen
-  description: "Software developer sharing insights on technology, automation, and system architecture"
-  keywords: ["software development", "DevOps", "automation", "technology"]
+  description: "Software developer sharing thoughts"
+  keywords: ["software development", "DevOps", "Security"]
+  
+  # Favicon
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon.ico"
+    favicon32x32: "/favicon.ico"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon.svg"
   
   # PaperMod specific
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true

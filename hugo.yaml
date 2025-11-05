@@ -13,11 +13,11 @@ params:
   
   # Favicon
   assets:
-     favicon: "/favicon.ico"
-     favicon16x16: "/favicon.ico"
-     favicon32x32: "/favicon.ico"
-     apple_touch_icon: "/apple-touch-icon.png"
-     safari_pinned_tab: "/favicon.svg"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon.ico"
+    favicon32x32: "/favicon.ico"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon.svg"
   
   # PaperMod specific
   ShowReadingTime: false

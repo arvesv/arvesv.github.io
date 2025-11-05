@@ -28,7 +28,7 @@ AI reviews usually surface things I have missed. The feedback is often useful bu
 
 ### Use of AI/LLM for small code and autocompletion
 
-This was the original GitHub Copilot use case: better intellisence. It works well but the time saved is hard to quantify.
+This was the original GitHub Copilot use case: better IntelliSense. It works well but the time saved is hard to quantify.
 
 - Does this make me develop faster? **Probably**  
 - Does this make the code better? **No**

@@ -1,57 +1,69 @@
 ---
-date: '2025-11-04T08:01:13+01:00'
+date: '2025-11-05'
 draft: true
-title: 'My experiences with AI/LLM Assisted Development'
+title: 'My Experience with AI Coding Assistants'
 ---
 
-I pay for/use GitHub Copilot Pro and I use Google Gemini CLI in my coding. This is a summary of my usage and how I experience the effects.
+I use GitHub Copilot (Pro) and Google Gemini CLI. Do coding assistants help me develop faster, improve code, or cause other effects?
 
-### Use AI to explain code and code fragments
+The way we use AI in development will continue to evolve. Below are my current views and experiences with coding assistants as of November 2025.
+I expect to look back on this post and feel embarrassed.
 
-I use this feature a lot - it is much easier to "grok" the meaning of code this way, rather than go out and search for information.
-Does this make me develop faster: *Maybe*
-Does this make the code better: *Probably not*
-Do I learn more: *Yes*
+I have used AI coding assistants in different ways, each with its own impact.
 
-### Use AI/LLM to review code
+### Use of AI to explain code
 
-Does this make me develop faster: *probably not*
-Does this make the code better: *Probably*
-Do I learn more: *Yes*
+This is one of the features I use most. AI explanations make it much easier to understand unfamiliar code. I still use Google Search and Stack Overflow, but less frequently now.
 
-### Use AI/LLM to generate "small code" with specific instructions
+- Does this make me develop faster: **Maybe**  
+- Does this make the code better: **Probably not**  
+- Do I learn stuff: **Yes**
 
-Does this make me develop faster: *probably*
-Does this make the code better: *no*
-Do I learn more: *No*
+### Use of AI/LLM to review code
 
-### "Vibe" code big things
+AI reviews usually surface things I have missed. The feedback is often useful but not always correct; it can miss context or suggest brittle fixes.
 
-Does this make me develop faster: *yes, but only throw away project"
-Does this make the code better: *worse*
-Do I learn more: *No*
+- Does this make me develop faster: **No** (reviews still take time)  
+- Does this make the code better: **Yes** (when used well)  
+- Do I learn more: **Yes**
+
+### Use of AI/LLM for small code and autocompletion
+
+This was the original Copilot use case: generate trivial code and help with completions. It works well for boilerplate and repetitive code, but the time saved is hard to quantify.
+
+- Does this make me develop faster: **Probably**  
+- Does this make the code better: **No** (not reliably)  
+- Do I learn more: **No**
+
+### Use of coding agents on an existing, long-lived project
+
+I’m cautious when an agent touches a mature codebase. I have seen it introduce issues like:
+
+- Add outdated dependencies (tools, NuGet/NPM packages, GitHub Actions)  
+- Small mistakes (e.g., placing files in the wrong folder when updating a JavaScript library)  
+- Generates code that’s harder to read or maintain; I’ve seen this a few times. Example: https://x.com/arvesv/status/1973004027144405470.
+
+Custom instructions can help, but at the moment I let the agent do work in a separate folder or workspace. If I like the output, I manually type or paste the changes — there's no better review than retyping the code yourself. See also David Heinemeier Hansson’s perspective on AI-assisted programming: https://thenewstack.io/dhh-on-ai-vibe-coding-and-the-future-of-programming/
+
+- Does this make me develop faster: **Maybe**  
+- Does this make the code better: **Maybe**  
+- Do I learn more: **Maybe**
+
+### Use of coding agents for greenfield and disposable projects
+
+Agents are impressive at bootstrapping new apps and prototypes. They excel at throwaway or single-use projects: one-off data extraction scripts, quick prototypes.
+
+- Will this make development faster: **Yes** (for greenfield/disposable projects)  
+- Does this make the code better: **Probably not**, but code quality is not often secondary for throwaway work. The important stuff is does it work.
+- Do I learn more: **Maybe**
+
+### My current take on AI
+
+AI-assisted coding is valuable for a developer. It’s a great sparring partner for a developer for trying new approaches, getting inspiration, or doing initial reviews.
+
+For "one off" projects "vibe" coding really works, as long as you can verify that the results are correct.
+
+However, when agents modify established codebases they can make mistakes, and that makes me not trust them. I often end up typing the code myself, inspired by the AI-generated suggestions.
+With better models, improved prompting, domain-specific instruction files etc I might start to trust the AI, but not now.
 
 
-If you      
-
-
-
-
-
-I use LLMs in various ways.
-
-
-- "explain this code" - This really helps me understand code, the explanation is usually OK. Does this make me develop faster: Maybe. Do I learn more: Yes
-- "review" - Getting feedback from a "
-### 
-
-
-My current views:
-- You as a devel
-
-
-
-
-Summary
-
-For me AI in the development process works mostly as a good learning tool. It is much better than Google Search/Stackoverflow to find the thing 

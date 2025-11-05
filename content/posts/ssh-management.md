@@ -1,8 +1,7 @@
 ---
 date: '2025-11-03T11:05:31+01:00'
-title: 'SSH Management'
+title: 'SSH Keys Management'
 ---
-## How I manage my SSH keys
 
 This is how I manage my SSH private keys. I think this is a good balance between security and usability, but this setup is for me. Your situation may be different so read this as potential inspiration, not as a blueprint.
 

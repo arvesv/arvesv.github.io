@@ -42,9 +42,9 @@ This was the original GitHub Copilot use case: better IntelliSense. It works wel
 
 I’m cautious when an agent touches a mature codebase. I have seen it introduce issues like:
 
-- add outdated dependencies (tools, NuGet/NPM packages, GitHub Actions)  
-- placing files in the wrong folder when updating a JavaScript library
-- generates code that is [harder to read](https://x.com/arvesv/status/1973004027144405470) and maintain
+- Add outdated dependencies (tools, NuGet/NPM packages, GitHub Actions)  
+- Placing files in the wrong folder when updating a JavaScript library
+- Generates code that is [harder to read](https://x.com/arvesv/status/1973004027144405470) and maintain
 
 Custom instructions can help, but at the moment I let the agent do work in a separate folder or workspace. If I like the output, I manually type or paste the changes — there's no better review than retyping the code yourself. See also [David Heinemeier Hansson’s perspective on AI-assisted programming](https://thenewstack.io/dhh-on-ai-vibe-coding-and-the-future-of-programming)
 

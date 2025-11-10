@@ -77,7 +77,7 @@ Serverless databases exist, but startup latency is a concern.
 
 The downside of self-hosting? You manage everything.
 
-The upside? A **5€ Hetzner VPS** (4GB RAM, 4GB SSD) or even my **Intel N150 mini machine** can host multiple apps and databases.
+The upside? A **5€ Hetzner VPS** (4GB RAM, 40GB SSD) or even my **Intel N150 mini machine** can host multiple apps and databases.
 
 There are tools that help you manage web apps:
 

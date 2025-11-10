@@ -1,6 +1,6 @@
 ---
 title: "Where Should You Deploy Your Web App? It Depends."
-date: 2025-11-07
+date: 2025-11-11
 author: "Arve Svendsen"
 tags: ["deployment", "web development", "containers", "VPS", "DevOps"]
 categories: ["Projects", "Infrastructure"]
@@ -91,9 +91,11 @@ You learn a lot by manually setting up an Nginx proxy and running containers you
 
 ---
 
-## s Kubernetes
+## Kubernetes
 
 Given my requirements, I believe a **Hetzner 5€ VPS** is the best option. It can run Kubernetes using **microk8s** or **k3s**, with enough power to host multiple apps and databases. I can even run **Valkey** if needed.
+
+This is not the full package kubernetes, I am only running one machine/node.
 
 Kubernetes is made for running web apps with, it handles updates, HTTS, and even databases. 
 And with a local registry then the turnaround time will be unmatched.

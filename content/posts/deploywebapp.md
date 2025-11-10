@@ -98,4 +98,4 @@ Given my requirements, I believe a **Hetzner 5€ VPS** is the best option. It c
 This is not the full-package Kubernetes, I am only running one machine/node.
 
 Kubernetes is made for running web apps with, it handles updates, HTTPS, and even databases. 
-And with a local registry then the turnaround time will be unmatched.
+And with a local registry, then the turnaround time will be unmatched.

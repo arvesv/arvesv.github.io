@@ -76,7 +76,7 @@ Serverless databases exist, but startup latency is a concern.
 
 The downside of self-hosting? You manage everything.
 
-The upside? A **5€ Hetzner VPS** (4GB RAM, 4GB SSD) or even my **Intel N150 mini machine** can host multiple apps and databases.
+The upside? A **5€ Hetzner VPS** (4GB RAM, 40GB SSD) or even my **Intel N150 mini machine** can host multiple apps and databases.
 
 There are tools that help you manage web apps on your own infrastructure:
 
@@ -104,4 +104,11 @@ It will be a lot of work, but a lot of learing. Is this the best option for you?
 
 I hope to revist this in the future with some benchmark numbers.
 
+<<<<<<< HEAD
 
+=======
+This is not the full-package Kubernetes, I am only running one machine/node.
+
+Kubernetes is made for running web apps with, it handles updates, HTTPS, and even databases. 
+And with a local registry, then the turnaround time will be unmatched.
+>>>>>>> e1dd6eb8e421dfad5ec1f97e6006200a81e61dbf

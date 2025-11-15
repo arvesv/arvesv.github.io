@@ -1,5 +1,5 @@
 ---
-title: "Where Should You Deploy Your Web App? It Depends."
+title: "Where Should You Run Your Web Application? It Depends."
 date: 2025-11-11
 author: "Arve Svendsen"
 tags: ["deployment", "web development", "containers", "VPS", "DevOps"]
@@ -7,7 +7,7 @@ categories: ["Projects", "Infrastructure"]
 summary: "Exploring deployment options for a web app with a focus on cost, speed, and learning."
 ---
 
-I’ve built a web application—and now it needs a home. With so many platforms to choose from, I decided to turn the deployment decision into a mini project with three phases:
+I’ve built a web application—and now it needs a home. What should I deploy it to? There are many platforms to choose from, I decided to turn the deployment decision into a mini project with three phases:
 
 1. **Design** the ideal platform and deployment process  
 2. **Implement** the design  
@@ -28,10 +28,8 @@ Here’s what I need from the platform:
 - Downtime due to hardware failure is fine—recovery should be reasonable  
 - Monthly operating cost should be **≤ 6€** (e.g., Hetzner’s cheapest VPS)  
 - Fast deployment turnaround—code changes should go live quickly  
-- Code is hosted on GitHub  
+- Code is hosted on GitHub. Deoploys should be possible both from GitHub actions and the local developer machine  
 - This is a **learning project**, optimized for fast iteration and feedback  
-
-My goal: a publicly accessible web app that’s easy to update and quick to deploy.
 
 ---
 
@@ -39,7 +37,8 @@ My goal: a publicly accessible web app that’s easy to update and quick to depl
 
 ### ✅ Containers
 
-Containers offer consistent runtimes and portability.
+Containers offer consistent runtimes and portability. There is no reason to choose anything else.  
+
 
 ### ☁️ Scale-to-Zero Container Runtimes
 
@@ -79,13 +78,13 @@ The downside of self-hosting? You manage everything.
 
 The upside? A **5€ Hetzner VPS** (4GB RAM, 4GB SSD) or even my **Intel N150 mini machine** can host multiple apps and databases.
 
-There are tools that help you manage web apps:
+There are tools that help you manage web apps on your own infrastructure:
 
 - [Kamal Deploy](https://kamal-deploy.com)  
 - [Uncloud](https://uncloud.run)  
 - Local Docker + custom scripts  
 
-You learn a lot by manually setting up an Nginx proxy and running containers yourself.
+You learn a lot by manually setting up an reverse proxy and running containers yourself.
 
 **Kamal Deploy** works well, though complexity is growing as it adds features. I haven’t tried **Uncloud** yet, but it looks promising.
 
@@ -93,9 +92,16 @@ You learn a lot by manually setting up an Nginx proxy and running containers you
 
 ## Kubernetes
 
-Given my requirements, I believe a **Hetzner 5€ VPS** is the best option. It can run Kubernetes using **microk8s** or **k3s**, with enough power to host multiple apps and databases. I can even run **Valkey** if needed.
+Given my requirements, I believe a small server where I install a one node "mini" Kubernetes is the best option. A machine with 4 GB of RAM can run **microk8s** or **k3s**, with enough power to host multiple apps and databases. I can run a local registry  can even run **Valkey** if needed.
 
-This is not the full package kubernetes, I am only running one machine/node.
+- Kubernetes is made for running web apps with, it handles updates without downtime
+- I can run a databases, redis etc.
+- I will learn a lot of Kubernetes
+- With a local build/registry on the Kubernetes machine the turnaround time (for code change to live) will be way faster than any other container based deployment. 
 
-Kubernetes is made for running web apps with, it handles updates, HTTS, and even databases. 
-And with a local registry then the turnaround time will be unmatched.
+It will be a lot of work, but a lot of learing. Is this the best option for you? It depends.
+
+
+I hope to revist this in the future with some benchmark numbers.
+
+

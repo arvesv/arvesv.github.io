@@ -101,14 +101,5 @@ Given my requirements, I believe a small server where I install a one node "mini
 
 It will be a lot of work, but a lot of learing. Is this the best option for you? It depends.
 
+I hope to revist this in the future with some benchmark numbers, some experiences richer. 
 
-I hope to revist this in the future with some benchmark numbers.
-
-<<<<<<< HEAD
-
-=======
-This is not the full-package Kubernetes, I am only running one machine/node.
-
-Kubernetes is made for running web apps with, it handles updates, HTTPS, and even databases. 
-And with a local registry, then the turnaround time will be unmatched.
->>>>>>> e1dd6eb8e421dfad5ec1f97e6006200a81e61dbf

@@ -1,6 +1,6 @@
 ---
 date: '2025-12-03T18:40:45+01:00'
-title: 'Smart Home frustrations'
+title: 'Smart Home tips/frustrations'
 ---
 Smart Home stuff is complex. This is some things I learned the hard way.
 
@@ -19,7 +19,7 @@ Accept that running a Smart Home will not always work, and it will require time.
 
 ## Hubs are not equal
 
-In most cases you need a Hub to manage your stuff. A Hub works best (more features/easier setup) within it’s own ecosystem. The new standards thread/matter aims to improve this, but the world is not there yet.   An example of this is that Home Assistant can only turn on or off my bathroom light, but the dedicated app can adjust the dimming.
+In most cases you need a Hub to manage your stuff. A Hub works best (more features/easier setup) within it’s own ecosystem. The new standards thread/matter aims to improve this, but the world is not there yet.   An example of this is that Home Assistant can only turn on or off my bathroom light, but the dedicated app can adjust the dimming as well.
 
 ## Home Assistant
 

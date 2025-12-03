@@ -6,9 +6,10 @@ Smart Home stuff is complex. This is some things I learned the hard way.
 
 ## Grouping devices and group names
 
-There are two types of smart devices, like Alexa, Siri, Google Home that talk to humans. And there are things/apps/services that controls devices, like Hue, Netatmo and Roborock. Almost all of them can manage groups of devices. You do want to have the human facing devices managing the groups with the generic/easy names. 
+There are two types of smart devices, like Alexa, Siri, Google Home that talk to humans. And there are things/apps/services that controls devices, like Hue, Netatmo and Roborock. Almost all of them can manage groups of devices. You want to the human facing devices to own groups with simple easy names.
 
-Example. Philips Hue defines a group "living room" for lights in the living room. You connect Alexa connects to Hue to get voice control, and Alexa will the automatically import/reflect "living room" but you can't non-Hue things to it.  I have a policy that only the human facing devices (Alexa, Google Home, Home Assistant) uses generic terms like "living room".  If Hue need a group for the lights in the living room, then that group can be called "Hue - Living Room". The Alexa group "living room" can include the group "hue - living room" and potentially other thins.
+Philips Hue can for example defin a group "living room" for the lights in the living room. But this is not a good idea if you connect Hue to Alexa and have other things in your living room. Alexa can not create or manage the "living room" group it it is created in Hue.
+My policy is that the human facing devices (Alexa, Google Home, Home Assistant) can use generic terms like "living room".  If Hue need a group for the lights in the living room, then that group can be called "Hue - Living Room". The Alexa group "living room" can include the group "hue - living room" and potentially other things.
 
 ## Communication between devices is difficult - Just a fact of life
 

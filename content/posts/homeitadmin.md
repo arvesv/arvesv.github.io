@@ -1,6 +1,5 @@
 ---
 date: '2026-01-27T21:33:32+01:00'
-draft: true
 title: 'Home IT - extra work'
 ---
 It  started when I bought a new IKEA smart device that supports Matter over Threads. Getting this up and running with my
@@ -26,7 +25,7 @@ I ended up doing the following.
 
 Looking at comments from the Home Assistant community, I am not the only one with this problem and I think the community will solve the issue in the future. The problem is not something I could fix alone.
 
-In some ways this project was a failure, I did not reach the orginal goal (yet). The goal was unrealistic (for now), but the project improved my homelab in significant ways. I am happy with the preliminary results.  
+In some ways this project was a failure, I did not reach the orginal goal (yet). The goal was unrealistic (for now), but the project improved my homelab in significant ways. I am happy with the preliminary results. 
 
 
 

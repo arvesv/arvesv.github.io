@@ -29,6 +29,11 @@ In some ways this project was a failure, I did not reach the orginal goal (yet).
 
 
 
+# Update March 1 - It works
+
+I got a new update from Home Assistant so I thought I should try the IKEA/Matter over Thread devices again. This time I got an error message. Googeling this message, said something about  IPv6. 
+Enabling IPv6 on Home Assistant fixed the issue.
+
 
 
 

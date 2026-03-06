@@ -2,13 +2,14 @@
 date: '2025-12-03T18:40:45+01:00'
 title: 'Smart Home tips/frustrations'
 ---
-Smart Home stuff is complex. This is some things I learned the hard way.
+Smart Home stuff is complex. This is a few things I learned the hard way.
 
 ## Grouping devices and group names
 
-There are two types of smart devices, like Alexa, Siri, Google Home that talk to humans. And there are things/apps/services that controls devices, like Hue, Netatmo and Roborock. Almost all of them can manage groups of devices. You want to the human facing devices to own groups with simple easy names.
+There are two types of smart devices. There are things like Alexa, Siri or Google Home that talk to humans. And there are things/apps/services that controls devices, like Hue, Netatmo and Roborock. Almost all of them can manage groups of devices. You want to the human facing devices to own groups with simple easy names.
 
-Philips Hue can for example defin a group "living room" for the lights in the living room. But this is not a good idea if you connect Hue to Alexa and have other things in your living room. Alexa can not create or manage the "living room" group it it is created in Hue.
+Philips Hue can for example define a group "living room" for the lights in the living room. But this is not a good idea if you connect Hue to Alexa and have other things in your living room. Alexa can not create or manage the group "living room" if it is created in Hue.
+
 My policy is that the human facing devices (Alexa, Google Home, Home Assistant) can use generic terms like "living room".  If Hue need a group for the lights in the living room, then that group can be called "Hue - Living Room". The Alexa group "living room" can include the group "hue - living room" and potentially other things.
 
 ## Communication between devices is difficult - Just a fact of life

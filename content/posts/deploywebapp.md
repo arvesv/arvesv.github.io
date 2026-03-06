@@ -7,7 +7,7 @@ categories: ["Projects", "Infrastructure"]
 summary: "Exploring deployment options for a web app with a focus on cost, speed, and learning."
 ---
 
-I’ve built a web application—and now it needs a home. What should I deploy it to? There are many platforms to choose from, I decided to turn the deployment decision into a mini project with three phases:
+I’ve built a web application—and thet need a home. What should I deploy it to? There are many platforms to choose from, I decided to turn the deployment decision into a mini project with three phases:
 
 1. **Design** the ideal platform and deployment process  
 2. **Implement** the design  

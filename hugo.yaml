@@ -4,13 +4,13 @@ title: Arve's Playground
 theme: PaperMod
 enableGitInfo: true
 
-copyright: "© 2025 Arve Svendsen. All rights reserved."
+copyright: "© 2026 Arve Svendsen. All rights reserved."
 
 params:
   author: Arve Svendsen
   description: "Software developer sharing thoughts"
-  keywords: ["software development", "DevOps", "Security"]
-  
+  keywords: ["software development", "DevOps", "Security", "AI"]
+
   # Favicon
   assets:
     favicon: "/favicon.ico"
@@ -18,14 +18,14 @@ params:
     favicon32x32: "/favicon.ico"
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/favicon.svg"
-  
+
   # PaperMod specific
   ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  
+
   # Social links
   social:
     - name: GitHub

@@ -3,7 +3,7 @@ date: '2026-03-20T03:25:08+01:00'
 title: 'Another Experience with AI Coding Assistants'
 ---
 
-I watched the DHH's demo of the [Once](https://www.youtube.com/watch?v=yZankuDQQmw) deployment tool and where he vibe coded a demo app, and I figured I should try to do the same. Three hours and roughly twenty prompts later, I had a publicly available web app up and running.
+I watched DHH's demo of the [Once](https://www.youtube.com/watch?v=yZankuDQQmw) deployment tool and where he vibe coded a demo app, and I figured I should try to do the same. Three hours and roughly twenty prompts later, I had a publicly available web app up and running.
 
 It is written in ASP.NET, has database access, schema migrations,
 zero-downtime updates, social login and a semi-generic system for reporting. It works -- and I didn’t write or modify a single line of code myself. The AI/LLM coding capabilities impressed me.  I could have built the same thing without AI, but it would have taken far longer.

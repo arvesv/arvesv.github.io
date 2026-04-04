@@ -19,4 +19,5 @@ The system isn’t perfect. We waste time learning things we don't need. But cer
 for skills, and a way to verify that someone has at least touched the relevant technologies.
 
 Imperfect? Yes.
+
 Obsolete? Not yet.

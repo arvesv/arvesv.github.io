@@ -1,6 +1,5 @@
 ---
 date: '2026-05-18T16:14:54+02:00'
-draft: true
 title: 'AI/LLM Assisted Development — May 2026 Edition'
 ---
 

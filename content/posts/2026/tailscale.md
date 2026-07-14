@@ -12,7 +12,8 @@ This is not sponsored -- this are simply my impressions of tools I use.
 My high-level explanation of [Tailscale](https://tailscale.com/) is that it is a essentially virtual intranet -- a tailnet -- that connects your devices
 no matter where they are. There are also some other useful services and it has a free tier.
 
-The tailnet is a subnet with a DNS name like somename.ts.net. The name is assigned to you, you cannot choose it.  I would have liked to have  a more personal name. 
+The tailnet is a subnet with a DNS name like somename.ts.net. The name is assigned to you, you cannot choose it.  I would have liked a more personal name. 
+
 
 ### How I use Tailscale:
 
@@ -58,10 +59,10 @@ since only two people use it.
 Cloud VPN solutions exist, but they often cost money or require more setup. Tailscale gives me secure access without exposing public IPs
 
 
-Tailscale also have support for ephemeral nodes, so that you can connect the default GitHub Actions runners to your tailnet.
+Tailscale also have support for ephemeral nodes, i.e. give tailnet access to short lived machines. I use it to give GitHub Actions runners access to my machines.
 
 
 
 ### Summary
 
-It is rare to see a product that has so many services that I find useful. Tailscale solves real problems me, and the free tier covers everything I need.
+It is rare to see a product that has so many services that I find useful. I think Tailscale solves real problems, and the free tier covers everything I need.

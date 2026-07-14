@@ -28,11 +28,11 @@ My usage is connected to having a home lab.  I have machines running Home Assist
 
 ### A better VPN 
 
-I have a home network and a router with good VPN support, but I mosly use Tailscale to reach my home machines with SSH, RDP or HTTP(S) and more. 
+I have a home network and a router with good VPN support, but I mostly use Tailscale to reach my home machines with SSH, RDP or HTTP(S) and more. 
 
 Another use case for VPNs is accessing geo-restricted content when traveling abroad. Tailscale supports this through exit nodes, which routes
 all your traffic through a device on your home network.  I use exit nodes only when I want to pretend to services that I am at home. 
-I have a homelab running 24/7 so setting up and exit node is doamble. If you have an Apple TV, it can also act as an exit node, which is a neat power saving option.
+I have a homelab running 24/7 so setting up an exit-node is doable. If you have an Apple TV, it can also act as an exit node, which is a neat power saving option.
 
 ### Tailscale SSH
 
@@ -45,21 +45,23 @@ It took a while before I understood how Tailscale SSH worked, but now I think it
 ### Tailscale Serve, Services and Funnel
 
 If you run your own applications, Tailscale makes it easy to expose them inside your tailnet.
-With Tailscale Serve, you can expose an app behind a clean HTTPS URL for internal use. This is possible in other ways but Tailscale makes it easier. 
+With Tailscale Serve, you can expose an app behind a clean HTTPS URL for internal use. This is possible in other ways, but Tailscale makes it easier. 
 
-You can use the Tailscale ingress controller to expose services to your tailnet for your Kubernetes cluster.
+You can use the Tailscale ingress controller to expose services to your tailnet for your Kubernetes cluster - this is something I am beginning to explore.
 
-For a developer that has a homelab, then tailscale allows your apps to look more professional with a clean URL and HTTPS.
+For a developer that has a homelab, then Tailscale allows your apps to look more professional with a clean URL and HTTPS.
 
 For applications on the tailnet you can also let Tailscale handle the authentication and access control - this isn’t very useful in my network
-since only two people use it. 
+since only two people use it.
+
+Funnel is a way to expose your services externally - but I have not used that feature yet.
 
 ### VPN for cloud machines
 
 Cloud VPN solutions exist, but they often cost money or require more setup. Tailscale gives me secure access without exposing public IPs
 
 
-Tailscale also have support for ephemeral nodes, i.e. give tailnet access to short lived machines. I use it to give GitHub Actions runners access to my machines.
+Tailscale also has support for ephemeral nodes,  give tailnet access to short lived machines. I use it to give GitHub Actions runners access to my machines.
 
 
 

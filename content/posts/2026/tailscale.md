@@ -50,7 +50,7 @@ With Tailscale Serve, you can expose an app behind a clean HTTPS URL for interna
 You can use the Tailscale Kubernetes ingress controller to expose services to your tailnet -- I have not used this yet.
 For applications on the tailnet you can let Tailscale handle the authentication and access control.
 
-Funnel is a way to expose your services externally - but I have not used that feature yet.
+Funnel is a way to expose your services externally - I have not used that feature yet.
 
 ### VPN for cloud machines
 

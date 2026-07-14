@@ -5,12 +5,12 @@ title: 'Software I use - Tailscale'
 I think there is value in sharing what software you use—and, more importantly, how you use it. I often
 think that real life usage examples are easier to understand than presentations. 
 
-This is not sponsored -- this are simply my impressions of tools I use.
+This is not sponsored -- these are simply my impressions of tools I use.
 
 ### Tailscale – a better VPN, or a virtual intranet?
 
-My high-level explanation of [Tailscale](https://tailscale.com/) is that it is a essentially virtual intranet -- a tailnet -- that connects your devices
-no matter where they are. There are also some other useful services and it has a free tier.
+My high-level explanation of [Tailscale](https://tailscale.com/) is that it is essentially a virtual intranet -- a tailnet -- that connects your devices
+no matter where they are. It also includes several useful services, and the free tier cover my use cases.
 
 The tailnet is a subnet with a DNS name like somename.ts.net. The name is assigned to you, you cannot choose it.  I would have liked a more personal name. 
 
@@ -19,7 +19,7 @@ The tailnet is a subnet with a DNS name like somename.ts.net. The name is assign
 
 *   VPN
 *   Simplified SSH access on mobile devices
-*	Hosting internal applications behind real https certificates.
+*	Hosting internal applications behind real HTTPS certificates.
 *   VPN for cloud machines
 
 My usage is connected to having a home lab.  I have machines running Home Assistant, Proxmox and a one-node Kubernetes cluster. If you don’t have a home lab or machines you need to reach, then you don’t need Tailscale.

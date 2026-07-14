@@ -40,19 +40,15 @@ Tailscale SSH takes over the SSH protocol on your tailnet and removes the need t
 
 For traditional setups, I use 1Password to manage SSH keys on my computers. However, handling 1Password SSH keys on phones and tablets is much less convenient.
 Tailscale simplifies this by removing the need to have SSH keys on devices connected to your tailnet. 
-It took a while before I understood how Tailscale SSH worked, but now I think it is my favorite feature that makes it management simpler overall.
+It took a while before I understood how Tailscale SSH worked, but now I think it is my favorite feature that makes SSH key management simpler overall.
 
 ### Tailscale Serve, Services and Funnel
 
 If you run your own applications, Tailscale makes it easy to expose them inside your tailnet.
 With Tailscale Serve, you can expose an app behind a clean HTTPS URL for internal use. This is possible in other ways, but Tailscale makes it easier. 
 
-You can use the Tailscale ingress controller to expose services to your tailnet for your Kubernetes cluster - this is something I am beginning to explore.
-
-For a developer that has a homelab, then Tailscale allows your apps to look more professional with a clean URL and HTTPS.
-
-For applications on the tailnet you can also let Tailscale handle the authentication and access control - this isn’t very useful in my network
-since only two people use it.
+You can use the Tailscale Kubernetes ingress controller to expose services to your tailnet -- I have not used this yet.
+For applications on the tailnet you can let Tailscale handle the authentication and access control.
 
 Funnel is a way to expose your services externally - but I have not used that feature yet.
 

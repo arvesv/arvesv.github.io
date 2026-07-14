@@ -65,4 +65,4 @@ Tailscale also have support for ephemeral nodes, i.e. give tailnet access to sho
 
 ### Summary
 
-It is rare to see a product that has so many services that I find useful. I think Tailscale solves real problems, and the free tier covers everything I need.
+It is rare to see a product that has so many services that I use. Tailscale solves real problems, and the free tier covers everything I need.

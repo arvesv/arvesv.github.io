@@ -1,6 +1,7 @@
 ---
 date: '2026-02-09'
 title: 'Network Attached Storage: Replacing the Synology box'
+tags: ["homelab"]
 ---
 
 After more than a decade of running Synology NAS devices in my home, I'm making a significant change to my setup. This post explores why and what I am will be doing.

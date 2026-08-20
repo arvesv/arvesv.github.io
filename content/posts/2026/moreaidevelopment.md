@@ -1,6 +1,7 @@
 ---
 date: '2026-05-18T16:14:54+02:00'
 title: 'AI/LLM Assisted Development — May 2026 Edition'
+tags: ["AI"]
 ---
 
 I write these summaries to structure my own thinking about AI/LLM-assisted development — and to have something to look back on (and probably cringe at) in the future.

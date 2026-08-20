@@ -1,6 +1,6 @@
 ---
 date: '2026-08-20T08:20:27+02:00'
-title: 'Forced Obsolescence'
+title: 'Forced Obsolescence?'
 ---
 I recently let AI review my Unifi setup (this will be a separate blog post). One consequence was that I
 tightened security on my main network by enforcing WPA3. For older devices I already had

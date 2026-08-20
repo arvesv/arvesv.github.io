@@ -1,6 +1,7 @@
 ---
 date: '2026-01-27T21:33:32+01:00'
 title: 'Home IT - extra work'
+tags: ["homelab"]
 ---
 It  started when I bought a new IKEA smart device that supports Matter over Threads. Getting this up and running with my
 Home Assistant running on a Proxmox server should be easy, right? That was the original idea.

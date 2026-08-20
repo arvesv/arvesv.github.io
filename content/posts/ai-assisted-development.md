@@ -1,6 +1,7 @@
 ---
 date: '2025-11-05'
 title: 'My Experience with AI Coding Assistants'
+tags: ["AI"]
 ---
 
 I use [GitHub Copilot (Pro)](https://github.com/features/copilot/plans) and [Google Gemini CLI](https://geminicli.com)[^1].

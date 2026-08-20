@@ -1,6 +1,7 @@
 ---
 date: '2026-03-20T03:25:08+01:00'
 title: 'Another Experience with AI Coding Assistants'
+tags: ["AI"]
 ---
 
 I watched DHH's demo of the [Once](https://www.youtube.com/watch?v=yZankuDQQmw) deployment tool and where he vibe coded a demo app, and I figured I should try to do the same. Three hours and roughly twenty prompts later, I had a publicly available web app up and running.

@@ -1,6 +1,7 @@
 ---
 date: '2026-07-14'
 title: 'Software I use - Tailscale'
+tags: ["homelab"]
 ---
 I think there is value in sharing what software you use—and, more importantly, how you use it. I often
 think that real life usage examples are easier to understand than presentations. 

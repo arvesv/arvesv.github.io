@@ -29,11 +29,10 @@ The HSM requirement makes theft and misuse of signing keys much harder.
 On Windows the common tool is signtool.exe (part of the Windows SDK). Typical minimum options:
 
 - /fd sha256 — set the file digest algorithm
-- /a or /sha1 — /a auto-selects a certificate (works if you have a single cert); /sha1 <thumbprint> selects by thumbprint
+- /a or /sha1 — /a auto-selects a certificate (works if you have a single cert); `/sha1 <thumbprint>` selects by thumbprint
 
 Example:
-
-```console
+```
 signtool /a /fd sha256 filetosign.exe
 ```
 

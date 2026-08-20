@@ -1,7 +1,7 @@
 ---
 date: '2026-02-23T13:54:38+01:00'
 title: 'Web Application Hosting - My Way'
-tags: ["homelab"]
+tags: ["DevOps"]
 ---
 There are _many_  ways to host web applications. You can run them it in the cluod or on-premises, using everything from “copy some PHP files into a folder” to full container orchestration on Kubernetes — and everything in between.
 

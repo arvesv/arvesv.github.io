@@ -1,6 +1,7 @@
 ---
 date: '2026-04-03T16:49:07+02:00'
 title: 'Are developer certifications still relevant if you have AI/LLM'
+tags: ["Software Development"]
 ---
 Microsoft regularly asks me to renew [my Azure certifications](https://learn.microsoft.com/en-gb/users/arvesv/transcript/73n8zclm50pwjp1).
 To do that, I have to answer multiple choice questions about specific Azure services. In most cases an AI/LLM would answer those questions

@@ -1,7 +1,7 @@
 ---
 date: '2026-08-17'
 title: 'AI as a Pair Programmer'
-tags: ["AI"]
+tags: ["AI", "Software Development"]
 ---
 I do think AI/LLMs have value, but not as much as the “AI enthusiast crowd”
 thinks. I like specific concrete examples of what AI can do. I think that

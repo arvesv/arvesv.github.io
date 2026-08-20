@@ -1,6 +1,7 @@
 ---
 date: '2023-11-28'
 title: 'Authenticode Signing'
+tags: ["Security"]
 ---
 
 A long time ago my employer needed to sign a shrink-wrapped software package using Authenticode. This was my first experience with code signing. Below I summarize what code signing is, why it matters, the 2023 HSM requirements, and practical options for signing in local and CI environments. I have used Azure Key Vault for HSM-backed signing.

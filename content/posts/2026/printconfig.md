@@ -1,6 +1,7 @@
 ---
 date: '2026-04-13T09:32:55+02:00'
 title: 'Solving the "Ghost" Printer: Why Your Network Printer Keeps Disconnecting'
+tags: ["Home IT"]
 ---
 Like many IT people I do technial support for friends and family. When I see the same issue in multiple households,
 it’s time to find a permanent fix rather than a quick patch.

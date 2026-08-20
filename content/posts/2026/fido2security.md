@@ -1,6 +1,7 @@
 ---
 date: '2026-03-03T19:24:50+01:00'
 title: 'The true purpose of a FIDO2 security key'
+tags: ["Security"]
 ---
 ![FIDO2 Security Key](/images/IMG_0852.JPG)
 I often find that you need to use a product for a while before you understand its “true purpose.” Reading about it only gets you so far. The real use case tends to

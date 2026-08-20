@@ -1,6 +1,7 @@
 ---
 date: '2026-04-29T20:45:16+02:00'
 title: 'GitHub Actions SHA pinning tool'
+tags: ["DevOps"]
 ---
 We all know that we _should_ pin GitHub Actions that come from external repositories. If a repository is compromised, pinning to a specific commit SHA can prevent malicious code from accessing your secrets during a workflow run.
 

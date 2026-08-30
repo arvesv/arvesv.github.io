@@ -24,7 +24,6 @@ The right move is often to step back and challenge the premise of what you’re 
 
 Fighting the system is very often a bad idea.
 
-You should find the root cause and work with the system to reach your objective, even if it requires changes to your plan and/or architecture.
 
 Instead, find the root cause and work with the system to reach your objective — even if that means adjusting your plan, your architecture, or your assumptions.
 
@@ -39,9 +38,15 @@ The design was straightforward: one ansible user with passwordless sudo and one 
 
 I asked an AI to generate a “bootstrap” Ansible script that creates the ansible user. I tested it on a cloud VM first — it worked. When I tried it on the real machine, it failed with a timeout waiting for a sudo password. I pasted the error into the AI, it suggested a fix, it failed again, and I repeated this loop several times.
 
-Eventually I realized I needed to understand the real problem.
+Eventually, I realized I needed to stop prompting and understand the actual failure mechanism.
 
-Then I decided that I had to figure out the real problem. For security reasons Ubuntu requires a tty when entering the sudo password, basically blocking using a password for the Ansible “become” root feature. I tried to do something that was impossible without configuring the machine first. But I the reason I wanted the “become” root feature was to configure the machine. The end result is that I readjusted the objective. All sould be Ansble script, except setting up the ansible user - that must be done manually. (The reason the script worked cloud test machine was that GCP sets up passewordless sudo for my default user.)
+For security reasons Ubuntu requires a interactive tty when entering the sudo password, basically blocking using a password for the Ansible “become” root feature. I tried to do something that was impossible without configuring the machine first. But I the reason I wanted the “become” root feature was to configure the machine. The end result is that I readjusted the objective. All sould be Ansble script, except setting up the ansible user - that must be done manually.
+
+The reason the script worked cloud test machine was that GCP sets up passewordless sudo for my default user.
+
+These kind of confiuration can also be done using cloud-init, but that may be a project for another day.
+
+ss
 
 
 

@@ -22,7 +22,7 @@ Sometimes you get stuck bouncing between steps 2 and 3. Each iteration adds more
 When you end up in that loop, you need to break out of it before it uses too much human or machine cognitive capacity.
 The right move is often to step back and challenge the premise of what you’re trying to do. In my experience, getting caught in a loop like this is a indication that you’re fighting the system.
 
-Fighting the system is very often a bad idea.
+Fighting the system is often a bad idea.
 
 
 Instead, find the root cause and work with the system to reach your objective — even if that means adjusting your plan, your architecture, or your assumptions.
@@ -40,13 +40,11 @@ I asked an AI to generate a “bootstrap” Ansible script that creates the ansi
 
 Eventually, I realized I needed to stop prompting and understand the actual failure mechanism.
 
-For security reasons Ubuntu requires a interactive tty when entering the sudo password, basically blocking using a password for the Ansible “become” root feature. I tried to do something that was impossible without configuring the machine first. But I the reason I wanted the “become” root feature was to configure the machine. The end result is that I readjusted the objective. All sould be Ansble script, except setting up the ansible user - that must be done manually.
+For security reasons Ubuntu requires a interactive tty when entering the sudo password, basically blocking using a password for the Ansible “become” root feature. I tried to do something that was impossible without configuring the machine first. But the reason I wanted the “become” root feature was to configure the machine. The end result is that I readjusted the objective. All should be Ansble scripts, except setting up the ansible user - that must be done manually.
 
 The reason the script worked cloud test machine was that GCP sets up passewordless sudo for my default user.
 
 These kind of confiuration can also be done using cloud-init, but that may be a project for another day.
-
-ss
 
 
 

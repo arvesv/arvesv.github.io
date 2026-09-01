@@ -42,7 +42,7 @@ Eventually, I realized I needed to stop prompting and understand the actual fail
 
 For security reasons Ubuntu requires a interactive tty when entering the sudo password, basically blocking using a password for the Ansible “become” root feature. I tried to do something that was impossible without configuring the machine first. But the reason I wanted the “become” root feature was to configure the machine. The end result is that I readjusted the objective. All configurations should be Ansble scripts, except setting up the ansible user - that must be done manually.
 
-The reason the script worked cloud test machine was that GCP sets up passewordless sudo for my default user.
+The reason the script worked on my cloud test machine was that GCP sets up passewordless sudo for my default user.
 
 These kind of confiuration can also be done using cloud-init, but that may be a project for another day.
 

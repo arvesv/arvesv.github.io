@@ -69,7 +69,7 @@ access to the Obsidian folder and ask it to clean up an structure. Hopefully if 
 be able to extract some useful information.
 - I have a folder where I run all the configurations using agents. And have the AI write logs giving the next agent run a post-mortem
 changelog so it avoids past pitfalls. I don't
-know if this is a good idea, but I hear about self improving agents and why not try it.
+know if this is a good idea, but I hear about self improving agents and why not try?
 
 
 

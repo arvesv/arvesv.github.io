@@ -5,10 +5,10 @@ tags: []
 categories: []
 ---
 I sometimes write these summaries to document my thoughts on AI agents — and to have something to look back on
-(and probably cringe at) in the future. The last [update was in May](../moreaidevelopment) and a few things have changed
-since then:
+(and probably cringe at) in the future. The last [update was in May](../moreaidevelopment) and a few things have changed:
 
--	I switched to [Google Antigravity](https://antigravity.google/) from GitHub Copilot after receiving a one-year Google AI Pro subscription
+-	I switched to [Google Antigravity](https://antigravity.google/) from GitHub Copilot after receiving a one-year [Google AI Pro](https://gemini.google/subscriptions/) as compensation
+for Google changing their Developer Premium program.
 -	The frontier models are good, and have gotten a lot better over the last year. Some are probably better than others but they have all been 
 good enough for my tasks. I don't think I could tell the models apart based on their output.
 -	We are moving from AI-assisted pair programming towards agentic development, basically relaxing how much we supervise the agent. 
@@ -20,15 +20,15 @@ good enough for my tasks. I don't think I could tell the models apart based on t
 > **Code completion → Pair programming → Agentic development**
 
 
-I have been doing pair programming with coding assistants for a while, where you are in the loop.  Agents work means more independent AI.
+I have been doing [pair programming](../ai_pair_programming) with coding assistants for a while, where you are in the loop.  Agents work means more independent AI.
 I was initially skeptical to letting agents work on their own as I thought that if I was not in the loop, then I would not learn. 
 But I trust the agents more and more, and don't review as much as before so I guess I am using more agentic development.
 
-It has been a while since I have looked at for example build pipeline failures. I basically tell Antigravity to fix the GitHub Actions error,
+It has been a while since I have looked at build pipeline failures. I basically tell Antigravity to fix the GitHub Actions error,
 and so far it has been successful.  I read the summary, and refresh tokens or access if that is needed, but I have not written GitHub Actions YAML for a while 
 and I think that is a good thing.
 
-And Antigravity and GitHub Copilot identifies as AI Agent Platforms so I guess I am developing with agents now.
+And Google Antigravity and GitHub Copilot identifies as AI Agent Platforms so I guess I am developing with agents now.
 
 
 ### Models are getting better

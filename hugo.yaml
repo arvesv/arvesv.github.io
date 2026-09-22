@@ -2,13 +2,21 @@ baseURL: https://arvesv.com/
 title: Arve's Playground
 theme: PaperMod
 enableGitInfo: true
+enableRobotsTXT: true
 
 copyright: "© 2026 Arve Svendsen. All rights reserved."
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
   author: Arve Svendsen
   description: "Software developer sharing thoughts"
   keywords: ["software development", "DevOps", "Security", "AI"]
+  images: ["/apple-touch-icon.png"]
 
   # Favicon
   assets:
@@ -19,11 +27,19 @@ params:
     safari_pinned_tab: "/favicon.svg"
 
   # PaperMod specific
-  ShowReadingTime: false
+  ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  ShowFullTextinRSS: true
+
+  # Home intro card
+  homeInfoParams:
+    Title: "Hi, I'm Arve 👋"
+    Content: "Software developer sharing thoughts on DevOps, Cloud, AI, and homelab."
 
   # Social links
   social:
@@ -36,25 +52,29 @@ params:
 
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 10
     - identifier: posts
       name: Posts
       url: /posts/
       weight: 20
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 30
+      weight: 40
     - identifier: about
       name: About
       url: /about
-      weight: 40
+      weight: 50
 
 markup:
   highlight:
     style: github
-    lineNos: true
+    lineNos: false
     codeFences: true

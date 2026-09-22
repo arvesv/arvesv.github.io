@@ -35,6 +35,7 @@ params:
   ShowToc: true
   TocOpen: false
   ShowFullTextinRSS: true
+  comments: true
 
   # Home intro card
   homeInfoParams:

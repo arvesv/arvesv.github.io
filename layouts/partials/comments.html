@@ -1,0 +1,49 @@
+<div class="comments" style="margin-top: 2.5rem;">
+    <script src="https://giscus.app/client.js"
+        data-repo="arvesv/arvesv.github.io"
+        data-repo-id="R_kgDOQOPAoQ"
+        data-category="General"
+        data-category-id="DIC_kwDOQOPAoc4DGJ44"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+    </script>
+</div>
+<script>
+    function getGiscusTheme() {
+        const theme = document.querySelector("html").dataset.theme || localStorage.getItem("pref-theme") || "auto";
+        if (theme === "dark") return "dark";
+        if (theme === "light") return "light";
+        return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    }
+
+    function syncGiscusTheme() {
+        const iframe = document.querySelector("iframe.giscus-frame");
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({
+            giscus: { setConfig: { theme: getGiscusTheme() } }
+        }, "https://giscus.app");
+    }
+
+    // Sync theme on initial load once Giscus frame is ready
+    window.addEventListener("message", function (event) {
+        if (event.origin !== "https://giscus.app") return;
+        if (typeof event.data !== "object" || !event.data.giscus) return;
+        syncGiscusTheme();
+    });
+
+    // Sync theme whenever user clicks the PaperMod theme toggle button
+    const themeToggle = document.getElementById("theme-toggle");
+    if (themeToggle) {
+        themeToggle.addEventListener("click", function () {
+            setTimeout(syncGiscusTheme, 150);
+        });
+    }
+</script>

@@ -7,7 +7,7 @@ My very limited list of important computer stuff to know.
 
 ## DevOps
 
-DevOps is an overused term and means many things to different people. In my mind it means putting most of the build/deploy processes in code. Some examples of
+DevOps is an overused term and means many things to many people. In my mind it means putting most of the build/deploy processes in code. Some examples of
 devops code is Dockerfiles and GitHub Actions workflows.
 
 ### Containers

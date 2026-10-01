@@ -8,12 +8,12 @@ My very limited list of important computer stuff to know.
 ## DevOps
 
 DevOps is an overused term and means many things to many people. In my mind it means putting most of the build/deploy processes in code. Some examples of
-devops code is Dockerfiles and GitHub Actions workflows.
+devops code are Dockerfiles and GitHub Actions workflows.
 
 ### Containers
 
 I think most applications we run today are packaged in containers. You build a container using a Dockerfile and it can run almost
-anywhere. You can run container on your computer with Docker, Podman and other things. It runs in all the clouds.
+anywhere. You can run containers on your computer with Docker, Podman and other things. It runs in all the clouds.
 Kubernetes is the most popular system for organizing and running containers on a cluster of machines.
 
 ### GitHub Actions
@@ -23,7 +23,7 @@ successfully deploy an application from a generic runner, then you might learn s
 
 ### Use tools to automate configuring machines or cloud setup
 
-Example: Use Ansible for machine configuration and Terraform for Cloud Infrastructure configuraation are examples of putting configuration in code.
+Using Ansible for machine configuration and Terraform for cloud infrastructure are examples of putting configuration into code.
 
 ## Security
 
@@ -50,7 +50,7 @@ There are many options. I use 1Password because I especially like the SSH key ma
 
 Microsoft Azure, Amazon Web Services, Google Cloud Platform and others allow you to rent almost any computing service.
 If you need to run a service 24x7 it might be cheaper to own a machine, but renting makes sense if your needs vary over time.
-Be aware that managing cloud servcies requires knowledge and effort.
+Be aware that managing cloud services requires knowledge and effort.
 
 ### The others
 
@@ -61,11 +61,11 @@ There are specialized companies delivering a few services. I think  fly.io and C
 A good AI agent/assistant will make you a better developer as it can:
 
 * Write code
-* Remove obstacles (doing thing to would not have the time to di)
+* Remove obstacles (doing things you would not have the time to do)
 * Explain things
 
 It will make everyone else better developers as well so the market for developers will change.
-I think this means that you have to use AI, otherwise you will loose in the competition with
+I think this means that you have to use AI, otherwise you will lose in the competition with
 your peers.
 
 There are moral problems with AI. But I don't think a single developer can afford not to use it.

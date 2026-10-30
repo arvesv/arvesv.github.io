@@ -46,6 +46,7 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
+          HUGO_GIT_COMMIT: ${{ github.sha }}
         run: |
           hugo \
             --gc \

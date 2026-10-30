@@ -1,8 +1,7 @@
 ---
 date: '2026-08-22T17:06:22+02:00'
 title: 'Use AI Agents for More'
-tags: ['AI']
-categories: []
+tags: ["AI"]
 ---
 Until recently, I mostly used AI agents as context-aware search tools or partners for writing and coding. While valuable,
 I struggled to see where else they fit into a practical workflow. I kept seeing claims that autonomous

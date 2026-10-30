@@ -1,8 +1,7 @@
 ---
 date: '2026-09-15'
 title: 'Agentic development - September 2026 edition'
-tags: []
-categories: []
+tags: ["AI"]
 ---
 I sometimes write these summaries to document my thoughts on AI agents — and to have something to look back on
 (and probably cringe at) in the future. The last [update was in May](/posts/2026/moreaidevelopment/) and a few things have changed:

@@ -1,8 +1,7 @@
 ---
 date: '2026-08-29T08:59:34+02:00'
 title: 'Where AI - and people - can get trapped'
-tags: []
-categories: []
+tags: ["AI"]
 ---
 
 

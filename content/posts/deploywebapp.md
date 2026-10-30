@@ -3,7 +3,6 @@ title: "Where Should You Run Your Web Application? It Depends."
 date: 2025-11-11
 author: "Arve Svendsen"
 tags: ["DevOps"]
-categories: ["Projects", "Infrastructure"]
 summary: "Exploring deployment options for a web app with a focus on cost, speed, and learning."
 ---
 

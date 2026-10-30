@@ -19,7 +19,7 @@ taxonomies:
 params:
   author: Arve Svendsen
   description: "Software developer sharing thoughts"
-  keywords: ["software development", "DevOps", "Security", "AI"]
+  keywords: ["Software Development", "DevOps", "Security", "AI", "Home IT"]
   images: ["/apple-touch-icon.png"]
 
   # Favicon
@@ -66,6 +66,10 @@ params:
 
   schema:
     publisherType: "Person"
+    sameAs:
+      - https://github.com/arvesv
+      - https://x.com/arvesv
+      - https://linkedin.com/in/arvesv
 
 menu:
   main:

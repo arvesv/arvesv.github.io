@@ -1,5 +1,5 @@
 ---
-date: '2026-10-30T08:08:09+01:00'
+date: '2026-10-29'
 title: 'Issues When Upgrading My Router'
 tags: ["Home IT"]
 ---

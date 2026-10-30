@@ -1,0 +1,130 @@
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden>
+    <p class="cookie-banner__text">
+        This site uses cookies for anonymous analytics to understand how content is read.
+    </p>
+    <div class="cookie-banner__actions">
+        <button id="cookie-decline" type="button" class="cookie-btn cookie-btn--secondary">Decline</button>
+        <button id="cookie-accept" type="button" class="cookie-btn cookie-btn--primary">Accept</button>
+    </div>
+</div>
+
+<style>
+    .cookie-banner {
+        position: fixed;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100% - 2rem);
+        max-width: var(--main-width, 720px);
+        background: var(--entry);
+        color: var(--primary);
+        border: 1px solid var(--border);
+        border-radius: var(--radius, 8px);
+        padding: 0.9rem 1.15rem;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        z-index: 999;
+        font-size: 0.9rem;
+    }
+
+    .cookie-banner[hidden] {
+        display: none;
+    }
+
+    .cookie-banner__text {
+        margin: 0;
+        color: var(--content);
+        line-height: 1.4;
+    }
+
+    .cookie-banner__actions {
+        display: flex;
+        gap: 0.5rem;
+        flex-shrink: 0;
+    }
+
+    .cookie-btn {
+        cursor: pointer;
+        font: inherit;
+        font-size: 0.85rem;
+        font-weight: 500;
+        padding: 0.4rem 0.85rem;
+        border-radius: 6px;
+        border: 1px solid var(--border);
+        transition: opacity 0.15s ease;
+    }
+
+    .cookie-btn:hover {
+        opacity: 0.85;
+    }
+
+    .cookie-btn--primary {
+        background: var(--primary);
+        color: var(--theme);
+        border-color: var(--primary);
+    }
+
+    .cookie-btn--secondary {
+        background: var(--code-bg);
+        color: var(--primary);
+    }
+
+    @media (max-width: 600px) {
+        .cookie-banner {
+            flex-direction: column;
+            align-items: stretch;
+            text-align: center;
+        }
+
+        .cookie-banner__actions {
+            justify-content: center;
+        }
+    }
+</style>
+
+<script>
+    (function () {
+        var STORAGE_KEY = 'cookie-consent';
+        var banner = document.getElementById('cookie-banner');
+        if (!banner) return;
+
+        try {
+            var consent = localStorage.getItem(STORAGE_KEY);
+            if (!consent) {
+                banner.hidden = false;
+            }
+        } catch (e) {
+            return;
+        }
+
+        var acceptBtn = document.getElementById('cookie-accept');
+        var declineBtn = document.getElementById('cookie-decline');
+
+        if (acceptBtn) {
+            acceptBtn.addEventListener('click', function () {
+                try {
+                    localStorage.setItem(STORAGE_KEY, 'accepted');
+                } catch (e) {}
+                banner.hidden = true;
+                if (typeof window.initPostHog === 'function') {
+                    window.initPostHog();
+                }
+            });
+        }
+
+        if (declineBtn) {
+            declineBtn.addEventListener('click', function () {
+                try {
+                    localStorage.setItem(STORAGE_KEY, 'declined');
+                } catch (e) {}
+                banner.hidden = true;
+                if (window.posthog && typeof window.posthog.opt_out_capturing === 'function') {
+                    window.posthog.opt_out_capturing();
+                }
+            });
+        }
+    })();
+</script>

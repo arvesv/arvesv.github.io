@@ -7,11 +7,19 @@ enableRobotsTXT: true
 
 copyright: "© 2026 Arve Svendsen. All rights reserved"
 
+outputFormats:
+  llms:
+    mediaType: "text/plain"
+    baseName: "llms"
+    isPlainText: true
+    notAlternative: true
+
 outputs:
   home:
     - HTML
     - RSS
     - JSON
+    - llms
 
 taxonomies:
   tag: tags
@@ -20,7 +28,7 @@ params:
   author: Arve Svendsen
   description: "Software developer sharing thoughts"
   keywords: ["Software Development", "DevOps", "Security", "AI", "Home IT"]
-  images: ["/apple-touch-icon.png"]
+  images: ["/images/og-image.png"]
 
   # Favicon
   assets:

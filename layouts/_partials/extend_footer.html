@@ -120,6 +120,9 @@
                 if (typeof window.initPostHog === 'function') {
                     window.initPostHog();
                 }
+                if (window.posthog && typeof window.posthog.opt_in_capturing === 'function') {
+                    window.posthog.opt_in_capturing();
+                }
             });
         }
 
@@ -129,8 +132,13 @@
                     localStorage.setItem(STORAGE_KEY, 'declined');
                 } catch (e) {}
                 banner.hidden = true;
-                if (window.posthog && typeof window.posthog.opt_out_capturing === 'function') {
-                    window.posthog.opt_out_capturing();
+                if (window.posthog) {
+                    if (typeof window.posthog.opt_out_capturing === 'function') {
+                        window.posthog.opt_out_capturing();
+                    }
+                    if (typeof window.posthog.reset === 'function') {
+                        window.posthog.reset();
+                    }
                 }
             });
         }

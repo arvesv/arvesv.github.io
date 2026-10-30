@@ -9,6 +9,8 @@ ShowBreadCrumbs: false
 hiddenInHomeList: true
 hiddenInRss: true
 searchHidden: true
+sitemap:
+  disable: true
 ---
 My very limited list of important computer stuff to know.
 

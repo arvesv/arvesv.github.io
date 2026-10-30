@@ -65,7 +65,7 @@ AI agents are definitely useful beyond software development, but access control 
 I have  started a couple of experiments to see if I can get more value from agents.
 
 - Use [Obsidian](https://obsidian.md/) for notes, as the notes are stored as agent friendly markdown files. Give the agent
-access to the Obsidian folder and ask it to clean up an structure. Hopefully if I get enough notes in there the agents will
+access to the Obsidian folder and ask it to clean up and structure. Hopefully if I get enough notes in there the agents will
 be able to extract some useful information.
 - I have a folder where I run all the configurations using agents. And have the AI write logs giving the next agent run a post-mortem
 changelog so it avoids past pitfalls. I don't
@@ -77,7 +77,7 @@ know if this is a good idea, but I hear about self improving agents and why not 
 
 I see I can get more value out of agents, not limited to software development. 
 
-An agent make it easier to do complex things (in code, in machine configuration), but is the complexity needed?  For example I used and agent to
+An agent makes it easier to do complex things (in code, in machine configuration), but is the complexity needed?  For example I used an agent to
 configure my home network to best practices, but maybe Unifi could have simplified the UI and made it easier to configure the network in the best way.
 
 My major use cases for agents:

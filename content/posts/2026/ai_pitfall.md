@@ -20,7 +20,7 @@ Sometimes you get stuck bouncing between steps 2 and 3. Each iteration adds more
 ### You may need a redesign
 
 When you end up in that loop, you need to break out of it before it uses too much human or machine cognitive capacity.
-The right move is often to step back and challenge the premise of what you’re trying to do. In my experience, getting caught in a loop like this is a indication that you’re fighting the system.
+The right move is often to step back and challenge the premise of what you’re trying to do. In my experience, getting caught in a loop like this is an indication that you’re fighting the system.
 
 Fighting the system is often a bad idea.
 
@@ -38,8 +38,8 @@ I asked an AI to generate a “bootstrap” Ansible script that creates the ansi
 
 Eventually, I realized I needed to stop prompting and understand the actual failure mechanism.
 
-For security reasons Ubuntu requires a interactive tty when entering the sudo password, basically blocking using a password for the Ansible “become” root feature. I tried to do something that was impossible without configuring the machine first. But the reason I wanted the “become” root feature was to configure the machine. The end result is that I readjusted the objective. All configurations should be Ansble scripts, except setting up the ansible user - that must be done manually.
+For security reasons Ubuntu requires an interactive tty when entering the sudo password, basically blocking using a password for the Ansible “become” root feature. I tried to do something that was impossible without configuring the machine first. But the reason I wanted the “become” root feature was to configure the machine. The end result is that I readjusted the objective. All configurations should be Ansible scripts, except setting up the ansible user - that must be done manually.
 
-The reason the script worked on my cloud test machine was that GCP sets up passewordless sudo for my default user.
+The reason the script worked on my cloud test machine was that GCP sets up passwordless sudo for my default user.
 
 These kind of configuration can also be done using cloud-init, but that may be a project for another day.

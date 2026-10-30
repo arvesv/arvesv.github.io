@@ -7,7 +7,7 @@ categories: ["Projects", "Infrastructure"]
 summary: "Exploring deployment options for a web app with a focus on cost, speed, and learning."
 ---
 
-I’ve built a web application—and thet need a home. What should I deploy it to? There are many platforms to choose from, I decided to turn the deployment decision into a mini project with three phases:
+I’ve built a web application—and that needs a home. What should I deploy it to? There are many platforms to choose from, I decided to turn the deployment decision into a mini project with three phases:
 
 1. **Design** the ideal platform and deployment process  
 2. **Implement** the design  
@@ -28,7 +28,7 @@ Here’s what I need from the platform:
 - Downtime due to hardware failure is fine—recovery should be reasonable  
 - Monthly operating cost should be **≤ 6€** (e.g., Hetzner’s cheapest VPS)  
 - Fast deployment turnaround—code changes should go live quickly  
-- Code is hosted on GitHub. Deoploys should be possible both from GitHub actions and the local developer machine  
+- Code is hosted on GitHub. Deploys should be possible both from GitHub actions and the local developer machine  
 - This is a **learning project**, optimized for fast iteration and feedback  
 
 ---
@@ -99,7 +99,7 @@ Given my requirements, I believe a small server where I install a one node "mini
 - I will learn a lot of Kubernetes
 - With a local build/registry on the Kubernetes machine the turnaround time (for code change to live) will be way faster than any other container based deployment. 
 
-It will be a lot of work, but a lot of learing. Is this the best option for you? It depends.
+It will be a lot of work, but a lot of learning. Is this the best option for you? It depends.
 
-I hope to revist this in the future with some benchmark numbers, some experiences richer. 
+I hope to revisit this in the future with some benchmark numbers, some experiences richer. 
 

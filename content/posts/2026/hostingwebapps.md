@@ -3,7 +3,7 @@ date: '2026-02-23T13:54:38+01:00'
 title: 'Web Application Hosting - My Way'
 tags: ["DevOps"]
 ---
-There are _many_  ways to host web applications. You can run them it in the cluod or on-premises, using everything from “copy some PHP files into a folder” to full container orchestration on Kubernetes — and everything in between.
+There are _many_  ways to host web applications. You can run them in the cloud or on-premises, using everything from “copy some PHP files into a folder” to full container orchestration on Kubernetes — and everything in between.
 
 ### My Requirements
 
@@ -13,7 +13,7 @@ I optimize for deployments with:
     (Also useful when I inevitably get millions of users 😊)
 * Proper HTTPS
 * Low operating cost
-* Fast and easy to updates
+* Fast and easy to update
 
 
 Your requirements may be different, but mine are tuned for a homelab software developer who deploys often to a professional‑looking “test environment.”
@@ -30,9 +30,9 @@ The machine runs Ubuntu Server, and hosts:
     - Various databases like postgres, valkey and more
     - "Stable" web apps like [Immich](https://immich.app/)
 * MicroK8S
-    - Kubernetes registery
+    - Kubernetes registry
     - Web applications under active development
-* And other software like [Tailscale], GitHub Actions agent, 
+* And other software like [Tailscale](/posts/2026/tailscale/) and a GitHub Actions runner
 
 When deploying a new service, I typically:
 - Package the web app in a container

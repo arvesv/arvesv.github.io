@@ -7,7 +7,7 @@ tags: ["Security"]
 I often find that you need to use a product for a while before you understand its “true purpose.” Reading about it only gets you so far. The real use case tends to
 reveal itself after some time in the real world.
 
-This is my experices with FIDO2 security keys.
+These are my experiences with FIDO2 security keys.
 
 ###  What a FIDO2 security key actually is
 
@@ -25,7 +25,7 @@ In many ways, a FIDO2 key behaves like a physical key:
 
 ### Why you may not need a security key
 
-Passkeys offer the same passwordless model, but the private key is stored on your device (phone or computer) and protected by biometrics or a device PIN. For most people, passkeys are equally secure and easier (not nessecarily easy) to use than a physical key.
+Passkeys offer the same passwordless model, but the private key is stored on your device (phone or computer) and protected by biometrics or a device PIN. For most people, passkeys are equally secure and easier (not necessarily easy) to use than a physical key.
 
 
 Security keys also come with a practical downside. They are protected by a PIN and a PUK, similar to a SIM card, and enter the wrong PIN/PUK too many times and the key wipes itself. It
@@ -37,7 +37,7 @@ Because of this, I’m not ready to replace all my existing authentication metho
 
 There are still situations where a hardware key makes sense:
 - Passwordless login on shared or untrusted devices, where you can’t install a passkey - this has not happened to me yet, but I still carry a Google Titan on my keychain.
-- A backup authentication method if you lose your phone with all your other factors - please review how you access your account in case you loose your phone
+- A backup authentication method if you lose your phone with all your other factors - please review how you access your account in case you lose your phone
 - Work requirements, especially in high‑security environments.
 - Learning and experimenting with FIDO2 security keys
 

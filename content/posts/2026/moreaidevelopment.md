@@ -61,7 +61,7 @@ Experiments, prototypes, and one-off projects are dramatically faster
 
 General development is faster
 
-Leaning stuff have never been easier
+Learning stuff has never been easier
 
 Battle-testing “real” code is still slow
 

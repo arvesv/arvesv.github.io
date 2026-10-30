@@ -1,4 +1,5 @@
 baseURL: https://www.arvesv.com/
+languageCode: en-us
 title: Arve's Playground
 theme: PaperMod
 enableGitInfo: true
@@ -40,6 +41,7 @@ params:
   ShowToc: true
   TocOpen: false
   ShowFullTextinRSS: true
+  ShowRssButtonInSectionTermList: true
   comments: true
 
   # Home intro card
@@ -55,6 +57,9 @@ params:
       url: https://x.com/arvesv
     - name: LinkedIn
       url: https://linkedin.com/in/arvesv
+    - name: rss
+      title: RSS
+      url: /index.xml
 
 menu:
   main:

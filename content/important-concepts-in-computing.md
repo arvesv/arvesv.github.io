@@ -9,6 +9,7 @@ ShowBreadCrumbs: false
 hiddenInHomeList: true
 hiddenInRss: true
 searchHidden: true
+robotsNoIndex: true
 sitemap:
   disable: true
 ---

@@ -9,13 +9,13 @@ categories: []
 ### Getting stuck in a loop
 
 A typical workflow is:
+
 1. Ask AI to make something
 2. Test it
 3. If it fails, ask the AI to fix it
 4. Repeat…
 
 Sometimes you get stuck bouncing between steps 2 and 3. Each iteration adds more patches, more complexity — but the underlying problem remains.
-
 
 ### You may need a redesign
 
@@ -24,15 +24,13 @@ The right move is often to step back and challenge the premise of what you’re 
 
 Fighting the system is often a bad idea.
 
-
 Instead, find the root cause and work with the system to reach your objective — even if that means adjusting your plan, your architecture, or your assumptions.
 
-### Example 
+### Example
 
 An example from my homelab: I got a new machine that I want to run Ubuntu Server on.
 
 My goal was that all machine configuration should be done using Ansible. This gives me repeatability, consistency, and simpler management. It was a "quality of life" objective to make life easier for future me.
-
 
 The design was straightforward: one ansible user with passwordless sudo and one SSH key managed by 1Password. This works well once the user exists. But how do you set up the user initially?
 
@@ -44,8 +42,4 @@ For security reasons Ubuntu requires a interactive tty when entering the sudo pa
 
 The reason the script worked on my cloud test machine was that GCP sets up passewordless sudo for my default user.
 
-These kind of confiuration can also be done using cloud-init, but that may be a project for another day.
-
-
-
-
+These kind of configuration can also be done using cloud-init, but that may be a project for another day.

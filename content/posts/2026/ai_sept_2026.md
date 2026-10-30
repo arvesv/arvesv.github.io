@@ -5,7 +5,7 @@ tags: []
 categories: []
 ---
 I sometimes write these summaries to document my thoughts on AI agents — and to have something to look back on
-(and probably cringe at) in the future. The last [update was in May](../moreaidevelopment) and a few things have changed:
+(and probably cringe at) in the future. The last [update was in May](/posts/2026/moreaidevelopment/) and a few things have changed:
 
 -	I switched to [Google Antigravity](https://antigravity.google/) from GitHub Copilot after receiving a one-year [Google AI Pro](https://gemini.google/subscriptions/) as compensation
 for Google changing their Developer Premium program.
@@ -20,7 +20,7 @@ good enough for my tasks. I don't think I could tell the models apart based on t
 > **Code completion → Pair programming → Agentic development**
 
 
-I have been doing [pair programming](../ai_pair_programming) with coding assistants for a while, where you are in the loop.  Agents work means more independent AI.
+I have been doing [pair programming](/posts/2026/ai_pair_programming/) with coding assistants for a while, where you are in the loop.  Agents work means more independent AI.
 I was initially skeptical to letting agents work on their own as I thought that if I was not in the loop, then I would not learn. 
 But I trust the agents more and more, and don't review as much as before so I guess I am using more agentic development.
 
@@ -54,7 +54,7 @@ is the most restrictive about using the subscription tokens in other products li
 ### Using Agents for other things
 
 On social media I saw different people say they had used AI agents to configure their Unifi network so I
-[tried it](../moreai) with good results. I later used it to review machine setup, suggesting how to free more disk space.
+[tried it](/posts/2026/moreai/) with good results. I later used it to review machine setup, suggesting how to free more disk space.
 I have asked Antigravity to convert oddly formatted audio files to MP3. I could figure out the arguments to [FFmpeg](https://ffmpeg.org/)
 but I am glad I don't have to.
 

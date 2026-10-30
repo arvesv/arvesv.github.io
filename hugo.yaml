@@ -1,4 +1,4 @@
-baseURL: https://arvesv.com/
+baseURL: https://www.arvesv.com/
 title: Arve's Playground
 theme: PaperMod
 enableGitInfo: true
@@ -27,6 +27,8 @@ params:
     safari_pinned_tab: "/favicon.svg"
 
   # PaperMod specific
+  mainSections:
+    - posts
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -43,7 +45,7 @@ params:
     Content: "Software developer sharing thoughts on DevOps, Cloud, AI, and homelab."
 
   # Social links
-  social:
+  socialIcons:
     - name: GitHub
       url: https://github.com/arvesv
     - name: X

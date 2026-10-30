@@ -3,9 +3,9 @@ date: '2026-08-20T08:20:27+02:00'
 title: 'Forced Obsolescence?'
 tags: ["Homelab"]
 ---
-I recently let [AI review my Unifi setup](../moreai). One consequence was that I
+I recently let [AI review my Unifi setup](/posts/2026/moreai/). One consequence was that I
 tightened security on my main network by enforcing WPA3. For older devices I already had
-[a separate IoT](../../specialitnetwork) less secure network on 2.4 GHz and WPA2, so in theory
+[a separate IoT](/posts/specialitnetwork/) less secure network on 2.4 GHz and WPA2, so in theory
 this should have been a simple migration.
 
 In practice, it wasn’t.

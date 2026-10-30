@@ -22,3 +22,6 @@ Gemfile.lock
 /resources/_gen/
 hugo_stats.json
 .hugo_build.lock
+
+# Antigravity CLI
+.antigravitycli/

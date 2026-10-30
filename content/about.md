@@ -1,9 +1,12 @@
 ---
 title: "About"
 comments: false
+ShowToc: false
+ShowReadingTime: false
+ShowShareButtons: false
+ShowBreadCrumbs: false
+hiddenInRss: true
 ---
-
-# About Me
 
 Hello, I'm **Arve Svendsen**! Welcome to my internet page.
 

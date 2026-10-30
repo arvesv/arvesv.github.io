@@ -5,7 +5,8 @@ theme: PaperMod
 enableGitInfo: true
 enableRobotsTXT: true
 
-copyright: "© 2026 Arve Svendsen. All rights reserved"
+# The footer prepends "© <current year>" at build time.
+copyright: "Arve Svendsen. All rights reserved"
 
 outputFormats:
   llms:

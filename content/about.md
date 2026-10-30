@@ -28,3 +28,10 @@ This is a place for me to share stuff and experiment.
 - **X (Twitter)**: [@arvesv](https://x.com/arvesv)
 - **LinkedIn**: [linkedin.com/in/arvesv](https://linkedin.com/in/arvesv)
 
+## Privacy
+
+- **Analytics**: This site uses [PostHog](https://posthog.com/) (EU cloud) to see which posts are read. PostHog only loads, and only sets cookies, after you click **Accept** in the cookie banner. No personal profiles are created for visitors.
+- **Your choice**: Your accept/decline choice is stored in your browser's local storage. You can change it at any time with the **Cookies** link in the footer.
+- **Comments**: Posts use [Giscus](https://giscus.app/), which loads from giscus.app and stores comments in GitHub Discussions. Posting a comment requires signing in with GitHub.
+- **Hosting**: The site is hosted on [GitHub Pages](https://docs.github.com/en/pages), which may log visitor IP addresses for security purposes.
+

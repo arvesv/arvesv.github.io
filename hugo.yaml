@@ -61,6 +61,12 @@ params:
       title: RSS
       url: /index.xml
 
+  social:
+    twitter: "arvesv"
+
+  schema:
+    publisherType: "Person"
+
 menu:
   main:
     - identifier: search
@@ -86,6 +92,6 @@ menu:
 
 markup:
   highlight:
-    style: github
+    noClasses: false
     lineNos: false
     codeFences: true

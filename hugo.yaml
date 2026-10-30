@@ -1,5 +1,5 @@
 baseURL: https://www.arvesv.com/
-languageCode: en-us
+locale: en-US
 title: Arve's Playground
 theme: PaperMod
 enableGitInfo: true

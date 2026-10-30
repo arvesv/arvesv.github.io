@@ -17,9 +17,9 @@ Not really a problem, but if you don’t disconnect your UniFi controller proper
 
 My Proxmox server had a fixed IP address on the old router’s `192.168.1.1/24` network. The new router used `192.168.0.1/24` and without a route between the networks there was no way of getting to the server. I had used a fixed IP because that is the recommended setup for Proxmox servers.
 
-Why not just add a network for `192.168.1.0/24`? That was my next idea, but the UniFi router rejected it because it overlapped with the upstream address range. My ISP's upstream gateway had suddenly placed me behind NAT, handing my router an IP in the 192.168.1.0/24 range on the WAN side.the WAN network.
+Why not just add a network for `192.168.1.0/24`? That was my next idea, but the UniFi router rejected it because it overlapped with the upstream address range. My ISP's upstream gateway had suddenly placed me behind NAT, handing my router an IP in the `192.168.1.0/24` range on the WAN side.
 
-To access the Proxmox server, I connected it directly to a spare switch alongside a laptop, configured the laptop with a manual IP in the old 192.168.1.x subnet, and accessed the web console to update the server's network configuration to match the new LAN.
+To access the Proxmox server, I connected it directly to a spare switch alongside a laptop, configured the laptop with a manual IP in the old `192.168.1.x` subnet, and accessed the web console to update the server's network configuration to match the new LAN.
 
 ## Third issue – Workarounds for double NAT
 

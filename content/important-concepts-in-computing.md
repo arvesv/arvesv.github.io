@@ -1,7 +1,14 @@
 ---
 title: "Some computing concepts described, according to Arve"
 date: '2026-10-01'
+comments: false
+ShowToc: false
+ShowReadingTime: false
+ShowShareButtons: false
+ShowBreadCrumbs: false
 hiddenInHomeList: true
+hiddenInRss: true
+searchHidden: true
 ---
 My very limited list of important computer stuff to know.
 

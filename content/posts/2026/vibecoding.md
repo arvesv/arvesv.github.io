@@ -18,7 +18,7 @@ Reviewing the generated code, there were a few things I would have done differen
 * Code is repeated - I would have centralized date formatting, and table layouts in generic functions.
 
 All the above is to make the code easier to understand for me, not for the compiler or the LLM/AI. Do I still need to care about that
-if the LLM/AI creates all the code? At this point in time,I think the answer is yes. When things fail in strange ways the AI may not be able to help you, and the easier the code is to understand, the easier it is to fix.
+if the LLM/AI creates all the code? At this point in time, I think the answer is yes. When things fail in strange ways the AI may not be able to help you, and the easier the code is to understand, the easier it is to fix.
 
 Does AI make me a faster developer. Yes, for small project - small is defined as "fits in the LLM context window". I do not want to develop without it.
 

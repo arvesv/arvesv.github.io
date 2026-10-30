@@ -8,7 +8,7 @@ We all know that we _should_ pin GitHub Actions that come from external reposito
 We also know that we rarely do this. My reasons were:
 
 -	It adds extra work
--	SHAs is hard to read and verify
+-	SHAs are hard to read and verify
 -	I assumed Dependabot did not work with SHA-pinned actions
 
 

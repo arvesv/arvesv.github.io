@@ -24,8 +24,8 @@ params:
   # Favicon
   assets:
     favicon: "/favicon.ico"
-    favicon16x16: "/favicon.ico"
-    favicon32x32: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/favicon.svg"
 
@@ -45,7 +45,7 @@ params:
   # Home intro card
   homeInfoParams:
     Title: "Hi, I'm Arve 👋"
-    Content: "Software developer sharing thoughts on DevOps, Cloud, AI, and homelab."
+    Content: "Software developer sharing thoughts on DevOps, Cloud, AI, and Home IT."
 
   # Social links
   socialIcons:
@@ -76,7 +76,7 @@ menu:
       weight: 40
     - identifier: about
       name: About
-      url: /about
+      url: /about/
       weight: 50
 
 markup:

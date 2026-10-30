@@ -18,11 +18,10 @@ Personal blog (**Arve's Playground**, `https://www.arvesv.com/`) built with **Hu
 - `content/posts/`: Blog posts. Newer posts are organized by year (e.g., `content/posts/2026/<slug>.md`).
 - `content/*.md`: Standalone top-level pages (`about.md`, `archives.md`, `search.md`, `important-concepts-in-computing.md`).
 - `layouts/`: Theme template overrides:
-  - `layouts/rss.xml`: Custom RSS template supporting full-text feeds and `Params.hiddenInRss`.
-  - `layouts/partials/extend_head.html`: Injects custom `<head>` scripts (`static/js/head.js` and PostHog analytics).
+  - `layouts/_partials/footer.html`: Custom footer partial showing the short Git commit SHA and UTC deploy timestamp.
+  - `layouts/partials/extend_head.html`: Injects custom `<head>` scripts (PostHog analytics).
   - `layouts/partials/comments.html`: Giscus comments widget with automatic light/dark theme syncing for PaperMod.
-  - `layouts/_partials/templates/`: Overrides for OpenGraph, Schema/JSON-LD, and Twitter cards.
-- `static/`: Static assets served at the site root (`images/`, `js/`, favicons, `CNAME`).
+- `static/`: Static assets served at the site root (`images/`, favicons, `CNAME`).
 - `.github/workflows/deploy.yml`: GitHub Actions workflow that installs the latest Hugo Extended release, builds with `hugo --gc --minify`, and deploys to GitHub Pages.
 
 ## Content & Authoring Conventions

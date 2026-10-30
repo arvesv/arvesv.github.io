@@ -4,7 +4,7 @@ title: 'Network Attached Storage: Replacing the Synology box'
 tags: ["Home IT"]
 ---
 
-After more than a decade of running Synology NAS devices in my home, I'm making a significant change to my setup. This post explores why and what I am will be doing.
+After more than a decade of running Synology NAS devices in my home, I'm making a significant change to my setup. This post explores why and what I will be doing.
 
 ## Why Have a NAS?
 

@@ -6,6 +6,7 @@ ShowReadingTime: false
 ShowShareButtons: false
 ShowBreadCrumbs: false
 hiddenInRss: true
+searchHidden: true
 ---
 
 Hello, I'm **Arve Svendsen**! Welcome to my internet page.

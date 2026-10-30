@@ -11,13 +11,13 @@ I ended up doing the following.
 2. I should probably upgrade Proxmox 8 to 9 before adding the antenna?
 3. I should do a backup of all VMs on Proxmox  (I am very glad I did this)
 4. Start upgrade - it fails. It does not boot - probably caused by a combination of secure boot and unsigned drivers that the proxmox installer warned me about.
-  I don't try to troubleshoot - I reinstall Proxmox 9 from scratch. This is actually a good thing, I got a few more settings proxmox settings right this time (better disk/filesystem)
+  I don't try to troubleshoot - I reinstall Proxmox 9 from scratch. This is actually a good thing, I got a few more Proxmox settings right this time (better disk/filesystem)
 5. Move the Proxmox server - if I clean up the server, why not improve its location as well.
 6. Restore VMs - this works very well.
 7. Add antenna, try to pair the IKEA device - It fails
 
 
-# Current status
+## Current status
 * Does the IKEA device work - Not yet
 
 * The Proxmox server is quicker and up to date
@@ -30,7 +30,7 @@ In some ways this project was a failure, I did not reach the original goal (yet)
 
 
 
-# Update March 1 - It works
+## Update March 1 - It works
 
 I got a new update from Home Assistant so I thought I should try the IKEA/Matter over Thread devices again. This time I got an error message. Googling this message, said something about  IPv6. 
 Enabling IPv6 on Home Assistant fixed the issue.

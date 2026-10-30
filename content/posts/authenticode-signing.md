@@ -71,7 +71,7 @@ Conclusion: USB tokens are not a good fit for automated CI/CD signing unless you
 
 Cloud providers (Azure Key Vault, AWS KMS/CloudHSM, Google Cloud KMS) offer HSM-backed key storage and signing operations. This is usually far cheaper and easier to integrate with CI/CD than a physical appliance. Access is managed via the cloud provider’s IAM.
 
-I have used Azure Key Vault successfully. Azure pricing is modest (e.g., a small monthly fee plus a per-operation cost). Signtool can be made to use cloud key stores with additional tooling; a convenient option for Azure is AzureSignTool (github.com/vcsjones/AzureSignTool).
+I have used Azure Key Vault successfully. Azure pricing is modest (e.g., a small monthly fee plus a per-operation cost). Signtool can be made to use cloud key stores with additional tooling; a convenient option for Azure is [AzureSignTool](https://github.com/vcsjones/AzureSignTool).
 
 ## Summary
 
@@ -82,10 +82,10 @@ I have used Azure Key Vault successfully. Azure pricing is modest (e.g., a small
 - Cloud HSM/key vault services are a practical, cost-effective choice for CI/CD signing; Azure Key Vault + AzureSignTool is one working solution.
 
 References:
-- Authenticode: https://learn.microsoft.com/en-us/windows-hardware/drivers/install/authenticode
-- Signtool: https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool
-- DigiCert changes: https://knowledge.digicert.com/alerts/code-signing-changes-in-2023
-- AzureSignTool: https://github.com/vcsjones/AzureSignTool
-- YubiKey: https://www.yubico.com/no/product/yubikey-5c-nfc/
-- SafeNet / Thales eToken: https://cpl.thalesgroup.com/access-management/authenticators/pki-usb-authentication/etoken-5110-usb-token
-- Samsung key leak example: https://arstechnica.com/gadgets/2022/12/samsungs-android-app-signing-key-has-leaked-is-being-used-to-sign-malware/
+- [Authenticode](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/authenticode)
+- [Signtool](https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool)
+- [DigiCert changes](https://knowledge.digicert.com/alerts/code-signing-changes-in-2023)
+- [AzureSignTool](https://github.com/vcsjones/AzureSignTool)
+- [YubiKey](https://www.yubico.com/no/product/yubikey-5c-nfc/)
+- [SafeNet / Thales eToken](https://cpl.thalesgroup.com/access-management/authenticators/pki-usb-authentication/etoken-5110-usb-token)
+- [Samsung key leak example](https://arstechnica.com/gadgets/2022/12/samsungs-android-app-signing-key-has-leaked-is-being-used-to-sign-malware/)

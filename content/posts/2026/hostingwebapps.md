@@ -1,6 +1,7 @@
 ---
 date: '2026-02-23T13:54:38+01:00'
 title: 'Web Application Hosting - My Way'
+description: 'Hosting stateless web apps with zero downtime on a 7W Intel NUC homelab server using Docker, MicroK8s, Nginx Proxy Manager, and Tailscale.'
 tags: ["DevOps"]
 ---
 There are _many_  ways to host web applications. You can run them in the cloud or on-premises, using everything from “copy some PHP files into a folder” to full container orchestration on Kubernetes — and everything in between.

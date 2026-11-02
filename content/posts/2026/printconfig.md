@@ -1,6 +1,7 @@
 ---
 date: '2026-04-13T09:32:55+02:00'
 title: 'Solving the "Ghost" Printer: Why Your Network Printer Keeps Disconnecting'
+description: 'Fixing the recurring ghost printer offline issue in Windows caused by dynamic DHCP reassignments using static reservations and DNS naming.'
 tags: ["Home IT"]
 ---
 Like many IT people I do technical support for friends and family. When I see the same issue in multiple households,

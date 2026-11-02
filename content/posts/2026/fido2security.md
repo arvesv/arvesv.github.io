@@ -1,6 +1,7 @@
 ---
 date: '2026-03-03T19:24:50+01:00'
 title: 'The true purpose of a FIDO2 security key'
+description: 'Real-world experiences with YubiKey and Google Titan hardware keys, exploring passwordless login benefits and comparing them to modern passkeys.'
 tags: ["Security"]
 ---
 ![FIDO2 Security Key](/images/IMG_0852.JPG)

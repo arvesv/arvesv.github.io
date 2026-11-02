@@ -1,6 +1,7 @@
 ---
 date: '2026-02-09'
 title: 'Network Attached Storage: Replacing the Synology box'
+description: 'Replacing a 10-year-old Synology NAS with an energy-efficient NUC and external SSD storage for better performance, lower power bills, and backups.'
 tags: ["Home IT"]
 ---
 

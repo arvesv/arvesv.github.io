@@ -1,6 +1,7 @@
 ---
 date: '2025-11-21T20:18:08+01:00'
 title: 'You need a separate IoT network'
+description: 'Why older smart home hardware fails on combined Wi-Fi 5/6 bands and why maintaining a dedicated 2.4 GHz network is essential for reliability.'
 tags: ["Home IT"]
 ---
 No, it is not to isolate malicious devices! It is because you have lots of "old" devices that do not handle and will not connect to your main combined WiFi 5/6 network. You need a 2.4 Ghz network. I have only managed to get a stable connection to Raspberry Pi Zero on the 2.4 Ghz only network.

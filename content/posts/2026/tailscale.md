@@ -1,6 +1,7 @@
 ---
 date: '2026-07-14'
 title: 'Software I use - Tailscale'
+description: 'How I use Tailscale as a secure virtual intranet for homelab remote access, Tailscale SSH key management, exit nodes, and HTTPS services.'
 tags: ["Home IT"]
 ---
 I think there is value in sharing what software you use—and, more importantly, how you use it. I often

@@ -1,6 +1,7 @@
 ---
 date: '2026-03-20T03:25:08+01:00'
 title: 'Another Experience with AI Coding Assistants'
+description: 'Building and deploying a full-stack ASP.NET application in three hours with Once and Gemini CLI, reflecting on vibe coding and code maintainability.'
 tags: ["AI"]
 ---
 

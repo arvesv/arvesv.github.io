@@ -1,6 +1,7 @@
 ---
 date: '2026-08-22T17:06:22+02:00'
 title: 'Use AI Agents for More'
+description: 'Shifting mindset from text prompting to system integration by letting an AI agent connect to a live UniFi controller for network optimizations.'
 tags: ["AI"]
 ---
 Until recently, I mostly used AI agents as context-aware search tools or partners for writing and coding. While valuable,

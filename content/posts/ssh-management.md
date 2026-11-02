@@ -1,6 +1,7 @@
 ---
 date: '2025-11-03T11:05:31+01:00'
 title: 'SSH Keys Management'
+description: 'Balancing security and convenience when managing SSH private keys across clouds, Linux machines, and mobile devices using 1Password and enclaves.'
 tags: ["Security"]
 ---
 

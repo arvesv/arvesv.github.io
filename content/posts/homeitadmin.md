@@ -1,6 +1,7 @@
 ---
 date: '2026-01-27T21:33:32+01:00'
 title: 'Home IT - extra work'
+description: 'How attempting to add a single IKEA Matter-over-Thread plug cascaded into a full Proxmox upgrade, server relocation, and homelab reorganization.'
 tags: ["Home IT"]
 ---
 It  started when I bought a new IKEA smart device that supports Matter over Threads. Getting this up and running with my

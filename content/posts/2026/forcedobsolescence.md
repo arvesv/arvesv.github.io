@@ -1,6 +1,7 @@
 ---
 date: '2026-08-20T08:20:27+02:00'
 title: 'Forced Obsolescence?'
+description: 'How enforcing WPA3 security on a home network broke older smart plugs and legacy devices, illustrating the unintended cost of forced obsolescence.'
 tags: ["Home IT"]
 ---
 I recently let [AI review my Unifi setup](/posts/2026/moreai/). One consequence was that I

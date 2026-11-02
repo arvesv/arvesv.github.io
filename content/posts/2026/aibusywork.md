@@ -1,6 +1,7 @@
 ---
 date: '2026-10-30T20:20:57+01:00'
 title: 'Busywork with AI Agents'
+description: 'Burning unused AI subscription quota by letting Gemini and Opus endlessly iterate on tiny blog improvements until both models surrendered.'
 tags: ["AI"]
 ---
 

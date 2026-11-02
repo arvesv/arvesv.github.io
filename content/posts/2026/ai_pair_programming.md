@@ -1,6 +1,7 @@
 ---
 date: '2026-08-17'
 title: 'AI as a Pair Programmer'
+description: 'How solo developers can use AI tools as collaborative pair programmers to challenge assumptions, explore alternatives, and improve code quality.'
 tags: ["AI", "Software Development"]
 ---
 I do think AI/LLMs have value, but not as much as the “AI enthusiast crowd”

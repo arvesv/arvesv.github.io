@@ -1,6 +1,7 @@
 ---
 date: '2023-11-28'
 title: 'Authenticode Signing'
+description: 'An overview of Windows Authenticode code signing, the 2023 hardware token/HSM requirements, and practical cloud signing using Azure Key Vault.'
 tags: ["Security"]
 ---
 

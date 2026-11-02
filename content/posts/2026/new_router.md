@@ -1,6 +1,7 @@
 ---
 date: '2026-10-29'
 title: 'Issues When Upgrading My Router'
+description: 'Lessons learned during a UniFi router replacement, dealing with device re-adoption, subnet collisions, and unexpected upstream ISP double NAT.'
 tags: ["Home IT"]
 ---
 

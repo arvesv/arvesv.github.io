@@ -1,6 +1,7 @@
 ---
 date: '2026-04-03T16:49:07+02:00'
 title: 'Are developer certifications still relevant if you have AI/LLM'
+description: 'Why standardized developer certifications still provide baseline value and learning breakthroughs even when AI models can ace the exams.'
 tags: ["Software Development"]
 ---
 Microsoft regularly asks me to renew [my Azure certifications](https://learn.microsoft.com/en-gb/users/arvesv/transcript/73n8zclm50pwjp1).

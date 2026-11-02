@@ -1,6 +1,7 @@
 ---
 date: '2026-05-18T16:14:54+02:00'
 title: 'AI/LLM Assisted Development — May 2026 Edition'
+description: 'Observations on changing AI pricing models, on-device mobile LLMs, command-line coding workflows, and maintaining code clarity in mid-2026.'
 tags: ["AI"]
 ---
 

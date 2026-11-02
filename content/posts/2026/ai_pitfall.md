@@ -1,6 +1,7 @@
 ---
 date: '2026-08-29T08:59:34+02:00'
 title: 'Where AI - and people - can get trapped'
+description: 'Recognizing when you are trapped in an AI prompt-and-patch loop, and why stepping back to challenge underlying system constraints is the right fix.'
 tags: ["AI"]
 ---
 

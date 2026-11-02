@@ -1,6 +1,7 @@
 ---
 date: '2025-12-03T18:40:45+01:00'
 title: 'Smart Home tips/frustrations'
+description: 'Practical lessons and naming conventions learned the hard way when organizing smart home device groups across Alexa, Philips Hue, and Home Assistant.'
 tags: ["Home IT"]
 ---
 Smart Home stuff is complex. This is a few things I learned the hard way.

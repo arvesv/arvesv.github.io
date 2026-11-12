@@ -4,6 +4,18 @@ title: 'GitHub Actions SHA pinning tool'
 description: 'Automating GitHub Actions commit SHA pinning while preserving Dependabot compatibility using a lightweight CLI tool built with an AI agent.'
 tags: ["DevOps"]
 ---
+
+
+
+---
+
+## Update (November 2026)
+
+> **Use GitHub's official tool instead:** GitHub now has an official tool for this: [gh-actions-lock](https://github.com/github/gh-actions-lock). You're probably better off using that one.
+
+
+
+
 We all know that we _should_ pin GitHub Actions that come from external repositories. If a repository is compromised, pinning to a specific commit SHA can prevent malicious code from accessing your secrets during a workflow run.
 
 We also know that we rarely do this. My reasons were:

@@ -25,3 +25,7 @@ hugo_stats.json
 
 # Antigravity CLI
 .antigravitycli/
+
+# Cloudflare Wrangler / Node
+.wrangler/
+node_modules/

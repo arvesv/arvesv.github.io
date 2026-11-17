@@ -1,0 +1,12 @@
+name = "arvesv-page-counter"
+main = "worker.js"
+compatibility_date = "2025-11-01"
+
+routes = [
+  { pattern = "www.arvesv.com/api/counter*", zone_name = "arvesv.com" }
+]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "arvesv-page-counter"
+database_id = "587988a9-6e20-45f8-a792-eee533c70d85"

@@ -43,7 +43,7 @@ I set up a [Cloudflare Worker](https://developers.cloudflare.com/workers/) that 
 [AI agents](/posts/2026/ai_sept_2026/) have become useful over the last year and I have used them to do a few things:
 
 - Optimise the [GitHub Actions](https://github.com/features/actions) deploy pipeline. For example I now see the SHA of the commit that was deployed in the footer.
-- Improve [Search Engine Optimisation (SEO)](/posts/2026/aibusywork/): The agent added and consolidated tags and descriptions, and set up a sitemap (which I then registered in [Google Search Console](https://search.google.com/search-console).
+- Improve [Search Engine Optimisation (SEO)](/posts/2026/aibusywork/): The agent added and consolidated tags and descriptions, and set up a sitemap which I then registered in [Google Search Console](https://search.google.com/search-console).
 - Track unique visitors: Add a [Cloudflare D1](https://developers.cloudflare.com/d1/) database so the number of unique visitors could be displayed on the front page.
 
 The text on this site is mine. While I trust agents to write good code, I don’t trust them with text (yet). But they are allowed to come with suggestions.

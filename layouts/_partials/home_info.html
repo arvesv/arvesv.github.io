@@ -9,7 +9,7 @@
     </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
-        <div id="page-view-counter" style="margin-top: 10px; font-size: 13px; color: var(--secondary);" hidden aria-live="polite">
+        <div id="page-view-counter" style="margin-top: 10px; font-size: 13px; color: var(--secondary); min-height: 1.6em; visibility: hidden;" aria-live="polite">
             <span id="page-view-count"></span> views
         </div>
     </footer>
@@ -20,39 +20,48 @@
         const countEl = document.getElementById('page-view-count');
         if (!counterEl || !countEl) return;
 
-        const storageKey = 'arvesv_home_counted';
-        let alreadyCounted = false;
-        try {
-            alreadyCounted = sessionStorage.getItem(storageKey) === '1';
-        } catch (e) {}
+        function loadCounter() {
+            const storageKey = 'arvesv_home_counted';
+            let alreadyCounted = false;
+            try {
+                alreadyCounted = sessionStorage.getItem(storageKey) === '1';
+            } catch (e) {}
 
-        const method = alreadyCounted ? 'GET' : 'POST';
+            const method = alreadyCounted ? 'GET' : 'POST';
 
-        fetch('/api/counter', {
-            method,
-            headers: { 'Accept': 'application/json' },
-            cache: 'no-store'
-        })
-            .then((res) => {
-                if (!res.ok) throw new Error('Counter request failed');
-                const contentType = res.headers.get('content-type') || '';
-                if (!contentType.includes('application/json')) {
-                    throw new Error('Unexpected response content type');
-                }
-                return res.json();
+            fetch('/api/counter', {
+                method,
+                headers: { 'Accept': 'application/json' },
+                cache: 'no-store',
+                priority: 'low'
             })
-            .then((data) => {
-                if (data && typeof data.views === 'number' && Number.isFinite(data.views)) {
-                    countEl.textContent = data.views.toLocaleString();
-                    counterEl.hidden = false;
-                    if (!alreadyCounted) {
-                        try {
-                            sessionStorage.setItem(storageKey, '1');
-                        } catch (e) {}
+                .then((res) => {
+                    if (!res.ok) throw new Error('Counter request failed');
+                    const contentType = res.headers.get('content-type') || '';
+                    if (!contentType.includes('application/json')) {
+                        throw new Error('Unexpected response content type');
                     }
-                }
-            })
-            .catch(() => {});
+                    return res.json();
+                })
+                .then((data) => {
+                    if (data && typeof data.views === 'number' && Number.isFinite(data.views)) {
+                        countEl.textContent = data.views.toLocaleString();
+                        counterEl.style.visibility = 'visible';
+                        if (!alreadyCounted) {
+                            try {
+                                sessionStorage.setItem(storageKey, '1');
+                            } catch (e) {}
+                        }
+                    }
+                })
+                .catch(() => {});
+        }
+
+        if (document.readyState === 'complete') {
+            loadCounter();
+        } else {
+            window.addEventListener('load', loadCounter, { once: true });
+        }
     })();
 </script>
 {{- end -}}

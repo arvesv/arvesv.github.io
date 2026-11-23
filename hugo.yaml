@@ -66,6 +66,12 @@ params:
       url: https://x.com/arvesv
     - name: LinkedIn
       url: https://linkedin.com/in/arvesv
+    - name: google
+      title: Google Developer Profile
+      url: https://g.dev/arvesv
+    - name: microsoft
+      title: Microsoft Learn Credentials
+      url: https://learn.microsoft.com/nb-no/users/arvesv/transcript/73n8zclm50pwjp1?tab=credentials-tab
     - name: rss
       title: RSS
       url: /index.xml
@@ -79,6 +85,8 @@ params:
       - https://github.com/arvesv
       - https://x.com/arvesv
       - https://linkedin.com/in/arvesv
+      - https://g.dev/arvesv
+      - https://learn.microsoft.com/nb-no/users/arvesv/transcript/73n8zclm50pwjp1?tab=credentials-tab
 
 
 menu:

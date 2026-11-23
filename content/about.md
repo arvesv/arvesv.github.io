@@ -29,6 +29,11 @@ This is a place for me to share stuff and experiment.
 - **X (Twitter)**: [@arvesv](https://x.com/arvesv)
 - **LinkedIn**: [linkedin.com/in/arvesv](https://linkedin.com/in/arvesv)
 
+## Developer Profiles & Credentials
+
+- **Google**: [g.dev/arvesv](https://g.dev/arvesv)
+- **Microsoft**: [Microsoft Learn Credentials & Transcript](https://learn.microsoft.com/nb-no/users/arvesv/transcript/73n8zclm50pwjp1?tab=credentials-tab)
+
 ## Privacy
 
 - **Analytics**: This site uses [PostHog](https://posthog.com/) (EU cloud) to see which posts are read. PostHog only loads, and only sets cookies, after you click **Accept** in the cookie banner. No personal profiles are created for visitors.

@@ -2,7 +2,7 @@
 date: '2026-09-15'
 title: 'Agentic development - September 2026 edition'
 description: 'Reflections on transitioning from pair programming to agentic development, model improvements in late 2026, and practical agent workflows.'
-tags: ["AI", "Software Development"]
+tags: ["AI", "AI Agents", "Software Development"]
 ---
 I sometimes write these summaries to document my thoughts on AI agents — and to have something to look back on
 (and probably cringe at) in the future. The last [update was in May](/posts/2026/moreaidevelopment/) and a few things have changed:

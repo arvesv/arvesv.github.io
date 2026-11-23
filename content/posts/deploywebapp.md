@@ -2,7 +2,7 @@
 title: "Where Should You Run Your Web Application? It Depends."
 date: 2025-11-11
 author: "Arve Svendsen"
-tags: ["DevOps"]
+tags: ["DevOps", "Cloud", "Self-Hosting"]
 description: 'Exploring real-world web application deployment options with a focus on operational simplicity, hosting costs, speed, and continuous learning.'
 ---
 

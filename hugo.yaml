@@ -28,7 +28,7 @@ taxonomies:
 params:
   author: Arve Svendsen
   description: "Software developer sharing thoughts"
-  keywords: ["Software Development", "DevOps", "Security", "AI", "Home IT", "Web"]
+  keywords: ["AI", "AI Agents", "Software Development", "DevOps", "Cloud", "Security", "Homelab", "Self-Hosting", "Networking", "Smart Home", "Blogging"]
   images: ["/images/og-image.png"]
 
   # Favicon

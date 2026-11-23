@@ -2,7 +2,7 @@
 date: '2026-10-29'
 title: 'Issues When Upgrading My Router'
 description: 'Lessons learned during a UniFi router replacement, dealing with device re-adoption, subnet collisions, and unexpected upstream ISP double NAT.'
-tags: ["Home IT"]
+tags: ["Networking", "Homelab"]
 ---
 
 Yesterday my UniFi router stopped working. The failure was a bit unexpected, but there was a newer model available, and I used this as an excuse to upgrade to a newer and better version. That should not take too much time, right?

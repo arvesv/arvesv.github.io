@@ -2,7 +2,7 @@
 date: '2026-11-23T03:25:35+01:00'
 title: 'SEO for This Blog'
 description: 'The minimal search engine optimization steps I took for this blog: search console registration, meta descriptions, technical cleanup and analytics'
-tags: ["DevOps", "Web"]
+tags: ["Blogging"]
 ---
 
 I am no expert in SEO, Search Engine Optimization, but here are a few things I have done with this site. 

@@ -2,7 +2,7 @@
 date: '2025-11-03T11:05:31+01:00'
 title: 'SSH Keys Management'
 description: 'Balancing security and convenience when managing SSH private keys across clouds, Linux machines, and mobile devices using 1Password and enclaves.'
-tags: ["Security"]
+tags: ["Security", "DevOps"]
 ---
 
 This is how I manage my SSH private keys. I think this is a good balance between security and usability, but this setup is for me. Your situation may be different so read this as potential inspiration, not as a blueprint.

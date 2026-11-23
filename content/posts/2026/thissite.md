@@ -2,7 +2,7 @@
 date: '2026-11-18T21:01:55+01:00'
 title: 'How and why I created www.arvesv.com'
 description: 'How and why I built www.arvesv.com using Markdown, Hugo, GitHub Pages, PostHog analytics, Cloudflare Workers and D1, and AI agents.'
-tags: ["DevOps", "Web"]
+tags: ["Blogging", "Cloud", "DevOps"]
 ---
 
 This site, like many personal websites created by technology enthusiasts, is probably over-engineered. The ratio of content to infrastructure is low. Still, the technology stack might be interesting to others, so here is a breakdown of my choices and the reasoning behind them

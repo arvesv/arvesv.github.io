@@ -2,7 +2,7 @@
 date: '2026-05-18T16:14:54+02:00'
 title: 'AI/LLM Assisted Development — May 2026 Edition'
 description: 'Observations on changing AI pricing models, on-device mobile LLMs, command-line coding workflows, and maintaining code clarity in mid-2026.'
-tags: ["AI"]
+tags: ["AI", "Software Development"]
 ---
 
 I write these summaries to structure my own thinking about AI/LLM-assisted development — and to have something to look back on (and probably cringe at) in the future.

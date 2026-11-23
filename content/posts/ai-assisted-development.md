@@ -2,7 +2,7 @@
 date: '2025-11-05'
 title: 'My Experience with AI Coding Assistants'
 description: 'Practical experiences using GitHub Copilot and Google Gemini CLI as a solo developer, evaluating productivity, code quality, and learning curves.'
-tags: ["AI"]
+tags: ["AI", "Software Development"]
 ---
 
 I use [GitHub Copilot (Pro)](https://github.com/features/copilot/plans) and [Google Gemini CLI](https://geminicli.com)[^1].

@@ -2,7 +2,7 @@
 date: '2026-04-29T20:45:16+02:00'
 title: 'GitHub Actions SHA pinning tool'
 description: 'Automating GitHub Actions commit SHA pinning while preserving Dependabot compatibility using a lightweight CLI tool built with an AI agent.'
-tags: ["DevOps"]
+tags: ["DevOps", "Security"]
 ---
 
 

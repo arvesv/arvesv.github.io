@@ -80,6 +80,10 @@ params:
       - https://x.com/arvesv
       - https://linkedin.com/in/arvesv
 
+  analytics:
+    bing:
+      SiteVerificationTag: "1FF9471582E02E746F35BA1C2261C17C"
+
 menu:
   main:
     - identifier: search

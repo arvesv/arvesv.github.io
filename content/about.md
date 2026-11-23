@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "About Arve Svendsen, software developer focused on full-stack development, DevOps, and system architecture, plus privacy details for arvesv.com."
 comments: false
 ShowToc: false
 ShowReadingTime: false

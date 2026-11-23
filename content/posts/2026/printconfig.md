@@ -1,7 +1,7 @@
 ---
 date: '2026-11-03'
 title: 'Solving the "Ghost" Printer: Why Your Network Printer Keeps Disconnecting'
-description: 'Fixing the recurring ghost printer offline issue in Windows caused by dynamic DHCP reassignments and WSD port drops.'
+description: 'Fixing the recurring Windows ghost printer offline issue caused by DHCP changes and WSD drops using DHCP reservations and Standard TCP/IP ports.'
 tags: ["Networking"]
 ---
 

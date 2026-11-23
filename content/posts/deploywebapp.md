@@ -3,7 +3,7 @@ title: "Where Should You Run Your Web Application? It Depends."
 date: 2025-11-11
 author: "Arve Svendsen"
 tags: ["DevOps", "Cloud", "Self-Hosting"]
-description: 'Exploring real-world web application deployment options with a focus on operational simplicity, hosting costs, speed, and continuous learning.'
+description: 'Comparing web app hosting options—containers on Cloud Run, Fly.io, and Hetzner VPS vs. Kamal and single-node MicroK8s/k3s—for cost and simplicity.'
 ---
 
 I’ve built a web application—and that needs a home. What should I deploy it to? There are many platforms to choose from, I decided to turn the deployment decision into a mini project with three phases:

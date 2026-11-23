@@ -27,7 +27,7 @@ taxonomies:
 
 params:
   author: Arve Svendsen
-  description: "Software developer sharing thoughts"
+  description: "Arve's Playground: practical notes from a software developer on AI, DevOps, Cloud, Security, Homelab, Self-Hosting, Networking, and Smart Home."
   keywords: ["AI", "AI Agents", "Software Development", "DevOps", "Cloud", "Security", "Homelab", "Self-Hosting", "Networking", "Smart Home", "Blogging"]
   images: ["/images/og-image.png"]
 

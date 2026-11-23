@@ -1,7 +1,7 @@
 ---
 date: '2026-11-23T03:25:35+01:00'
 title: 'SEO for This Blog'
-description: 'The minimal search engine optimization steps I took for this blog: search console registration, meta descriptions, technical cleanup and analytics'
+description: 'The minimal search engine optimization steps I took for this blog: search console registration, meta descriptions, technical cleanup, and analytics.'
 tags: ["Blogging"]
 ---
 

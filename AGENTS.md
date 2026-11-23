@@ -24,6 +24,7 @@ Personal blog (**Arve's Playground**, `https://www.arvesv.com/`) built with **Hu
   - `layouts/_partials/extend_head.html`: Injects custom `<head>` scripts (PostHog analytics, gated on cookie consent).
   - `layouts/_partials/home_info.html`: Custom PaperMod home intro card with the Cloudflare D1 page-view counter (`/api/counter`).
   - `layouts/_partials/comments.html`: Giscus comments widget with automatic light/dark theme syncing for PaperMod.
+- `assets/css/extended/custom.css`: Custom PaperMod CSS extensions (bundled and inlined via `layouts/_partials/head.html`), including distinct summary styling for `.post-single .post-description`.
 - `cloudflare/`: Cloudflare Worker (`worker.js`), `wrangler.toml`, D1 database schema (`schema.sql`), and deployment guide (`README.md`) for `/api/counter`.
 - `static/`: Static assets served at the site root (`images/`, favicons, `CNAME`).
 - `.github/workflows/deploy.yml`: GitHub Actions workflow that installs the latest Hugo Extended release, builds with `hugo --gc --minify`, and deploys to GitHub Pages.

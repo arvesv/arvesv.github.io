@@ -1,0 +1,17 @@
+/* Visually distinguish the post description/summary from body copy */
+.post-single .post-description {
+    margin: 14px 0 12px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 1.55;
+    color: var(--secondary);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-inline-start: 3px solid var(--secondary);
+    border-radius: var(--radius);
+}
+
+[data-theme="dark"] .post-single .post-description {
+    background: var(--entry);
+}

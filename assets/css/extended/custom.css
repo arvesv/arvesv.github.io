@@ -15,3 +15,8 @@
 [data-theme="dark"] .post-single .post-description {
     background: var(--entry);
 }
+
+/* Allow the expanded "Powered by" footer credits to wrap cleanly on narrow mobile screens */
+.footer span:last-child {
+    white-space: normal;
+}
